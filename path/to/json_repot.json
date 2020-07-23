@@ -1,0 +1,300 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "TC1_Flight search",
+        "description": "",
+        "id": "flight-feature-of-kayak.com;tc1-flight-search;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5121550944,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the chrome browser",
+            "match": {
+              "location": "FlightSearchTest.launch_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4609252839,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click on flight button",
+            "match": {
+              "location": "FlightSearchTest.click_on_flight_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4431866621,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter origin \"San Francisco (SFO)\", destination \"Las Vegas (LAS)\", select from date, to date and click on search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "San Francisco (SFO)",
+                  "offset": 14
+                },
+                {
+                  "val": "Las Vegas (LAS)",
+                  "offset": 49
+                }
+              ],
+              "location": "FlightSearchTest.enter_origin_destination_select_from_date_to_date_and_click_on_search_button(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4126803653,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Select one search option",
+            "match": {
+              "location": "FlightSearchTest.select_one_search_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 357724309,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify and Validate origin and destination cities",
+            "match": {
+              "location": "FlightSearchTest.Verify_and_Validate_origin_and_destination_cities()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 239217719,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Quit the browser",
+            "match": {
+              "location": "FlightSearchTest.quit_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "TC1_Flight search",
+        "description": "",
+        "id": "flight-feature-of-kayak.com;tc1-flight-search;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2988869556,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the chrome browser",
+            "match": {
+              "location": "FlightSearchTest.launch_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3062630015,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click on flight button",
+            "match": {
+              "location": "FlightSearchTest.click_on_flight_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4859021791,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter origin \"Chicago (CHI)\", destination \"Atlanta (ATL)\", select from date, to date and click on search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chicago (CHI)",
+                  "offset": 14
+                },
+                {
+                  "val": "Atlanta (ATL)",
+                  "offset": 43
+                }
+              ],
+              "location": "FlightSearchTest.enter_origin_destination_select_from_date_to_date_and_click_on_search_button(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11119535648,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Select one search option",
+            "match": {
+              "location": "FlightSearchTest.select_one_search_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1091808899,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify and Validate origin and destination cities",
+            "match": {
+              "location": "FlightSearchTest.Verify_and_Validate_origin_and_destination_cities()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 196689079,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Quit the browser",
+            "match": {
+              "location": "FlightSearchTest.quit_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "TC1_Flight search",
+        "description": "",
+        "id": "flight-feature-of-kayak.com;tc1-flight-search;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5901487194,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the chrome browser",
+            "match": {
+              "location": "FlightSearchTest.launch_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3693152297,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click on flight button",
+            "match": {
+              "location": "FlightSearchTest.click_on_flight_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4454448235,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter origin \"New York (NYC)\", destination \"Los Angeles (LAX)\", select from date, to date and click on search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "New York (NYC)",
+                  "offset": 14
+                },
+                {
+                  "val": "Los Angeles (LAX)",
+                  "offset": 44
+                }
+              ],
+              "location": "FlightSearchTest.enter_origin_destination_select_from_date_to_date_and_click_on_search_button(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4138770155,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Select one search option",
+            "match": {
+              "location": "FlightSearchTest.select_one_search_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 192354670,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify and Validate origin and destination cities",
+            "match": {
+              "location": "FlightSearchTest.Verify_and_Validate_origin_and_destination_cities()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 182030429,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Quit the browser",
+            "match": {
+              "location": "FlightSearchTest.quit_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Flight feature of Kayak.com",
+    "description": "",
+    "id": "flight-feature-of-kayak.com",
+    "keyword": "Feature",
+    "uri": "FlightSearch.feature"
+  }
+]

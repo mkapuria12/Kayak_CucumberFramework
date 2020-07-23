@@ -1,0 +1,921 @@
+2020-07-21 18:41:30,476  INFO [main] FlightSearchTest:60 - Clicked on Flight button.
+2020-07-21 18:41:31,830  INFO [main] FlightSearchTest:62 - Search hundreds of flights at once.
+2020-07-21 18:41:32,246  INFO [main] FlightSearchTest:71 - Cancelled default origin city.
+2020-07-21 18:41:32,801  INFO [main] FlightSearchTest:73 - Origin city is entered.
+2020-07-21 18:44:56,585  INFO [main] FlightSearchTest:60 - Clicked on Flight button.
+2020-07-21 18:44:58,317  INFO [main] FlightSearchTest:62 - Search hundreds of flights at once.
+2020-07-21 18:44:58,526  INFO [main] FlightSearchTest:71 - Cancelled default origin city.
+2020-07-21 18:44:58,964  INFO [main] FlightSearchTest:73 - Origin city is entered.
+2020-07-21 18:49:29,261  INFO [main] FlightSearchTest:61 - Clicked on Flight button.
+2020-07-21 18:49:30,762  INFO [main] FlightSearchTest:63 - Search hundreds of flights at once.
+2020-07-21 18:49:31,763  INFO [main] FlightSearchTest:72 - Cancelled default origin city.
+2020-07-21 18:49:32,291  INFO [main] FlightSearchTest:74 - Origin city is entered.
+2020-07-22 07:32:57,480  INFO [main] FlightSearchTest:61 - Clicked on Flight button.
+2020-07-22 07:32:59,293  INFO [main] FlightSearchTest:63 - Search hundreds of flights at once.
+2020-07-22 07:32:59,680  INFO [main] FlightSearchTest:72 - Cancelled default origin city.
+2020-07-22 07:33:00,856  INFO [main] FlightSearchTest:74 - Origin city is entered.
+2020-07-22 07:37:06,649  INFO [main] FlightSearchTest:61 - Clicked on Flight button.
+2020-07-22 07:37:08,515  INFO [main] FlightSearchTest:63 - Search hundreds of flights at once.
+2020-07-22 07:37:08,746  INFO [main] FlightSearchTest:72 - Cancelled default origin city.
+2020-07-22 07:37:09,231  INFO [main] FlightSearchTest:74 - Origin city is entered.
+2020-07-22 07:37:09,318  INFO [main] FlightSearchTest:77 - 1
+2020-07-22 07:37:09,342  INFO [main] FlightSearchTest:79 - San Francisco, CA
+San Francisco
+SFO
+2020-07-22 07:37:09,730  INFO [main] FlightSearchTest:86 - Clicked on destination.
+2020-07-22 07:37:10,243  INFO [main] FlightSearchTest:88 - Destination city is entered.
+2020-07-22 07:37:11,162  INFO [main] FlightSearchTest:91 - 1
+2020-07-22 07:37:11,191  INFO [main] FlightSearchTest:94 - Las Vegas, NV
+McCarran
+LAS
+2020-07-22 07:37:11,569  INFO [main] FlightSearchTest:101 - Clicked on from date.
+2020-07-22 07:37:12,502  INFO [main] FlightSearchTest:103 - Selected from date.
+2020-07-22 07:37:12,728  INFO [main] FlightSearchTest:105 - Selected to date.
+2020-07-22 07:37:13,022  INFO [main] FlightSearchTest:107 - Clicked on search button.
+2020-07-22 07:37:13,022  INFO [main] FlightSearchTest:108 - Informations are entered successfully and navigated to search option page.
+2020-07-22 08:21:58,600  INFO [main] FlightSearchTest:61 - Clicked on Flight button.
+2020-07-22 08:22:00,604  INFO [main] FlightSearchTest:63 - Search hundreds of flights at once.
+2020-07-22 08:22:01,010  INFO [main] FlightSearchTest:71 - Cancelled default origin city.
+2020-07-22 08:22:02,070  INFO [main] FlightSearchTest:73 - Origin city is entered.
+2020-07-22 08:22:02,175  INFO [main] FlightSearchTest:76 - 1
+2020-07-22 08:22:02,197  INFO [main] FlightSearchTest:78 - San Francisco, CA
+San Francisco
+SFO
+2020-07-22 08:22:02,718  INFO [main] FlightSearchTest:85 - Clicked on destination.
+2020-07-22 08:22:03,131  INFO [main] FlightSearchTest:87 - Destination city is entered.
+2020-07-22 08:22:04,790  INFO [main] FlightSearchTest:90 - 1
+2020-07-22 08:22:04,810  INFO [main] FlightSearchTest:93 - Las Vegas, NV
+McCarran
+LAS
+2020-07-22 08:22:05,184  INFO [main] FlightSearchTest:100 - Clicked on from date.
+2020-07-22 08:22:06,129  INFO [main] FlightSearchTest:102 - Selected from date.
+2020-07-22 08:22:06,417  INFO [main] FlightSearchTest:104 - Selected to date.
+2020-07-22 08:22:06,799  INFO [main] FlightSearchTest:106 - Clicked on search button.
+2020-07-22 08:22:06,799  INFO [main] FlightSearchTest:107 - Informations are entered successfully and navigated to search option page.
+2020-07-22 08:34:08,703  INFO [main] FlightSearchTest:61 - Clicked on Flight button.
+2020-07-22 08:34:10,163  INFO [main] FlightSearchTest:63 - Search hundreds of flights at once.
+2020-07-22 08:34:10,416  INFO [main] FlightSearchTest:71 - Cancelled default origin city.
+2020-07-22 08:34:10,899  INFO [main] FlightSearchTest:73 - Origin city is entered.
+2020-07-22 08:34:10,991  INFO [main] FlightSearchTest:76 - 1
+2020-07-22 08:34:11,015  INFO [main] FlightSearchTest:78 - San Francisco, CA
+San Francisco
+SFO
+2020-07-22 08:34:11,479  INFO [main] FlightSearchTest:85 - Clicked on destination.
+2020-07-22 08:34:11,976  INFO [main] FlightSearchTest:87 - Destination city is entered.
+2020-07-22 08:34:12,717  INFO [main] FlightSearchTest:90 - 1
+2020-07-22 08:34:12,741  INFO [main] FlightSearchTest:93 - Las Vegas, NV
+McCarran
+LAS
+2020-07-22 08:34:13,204  INFO [main] FlightSearchTest:100 - Clicked on from date.
+2020-07-22 08:34:14,117  INFO [main] FlightSearchTest:102 - Selected from date.
+2020-07-22 08:34:14,388  INFO [main] FlightSearchTest:104 - Selected to date.
+2020-07-22 08:34:14,722  INFO [main] FlightSearchTest:106 - Clicked on search button.
+2020-07-22 08:34:14,722  INFO [main] FlightSearchTest:107 - Informations are entered successfully and navigated to search option page.
+2020-07-22 08:34:14,726  INFO [main] FlightSearchTest:117 - Closed pop up.
+2020-07-22 08:36:17,432  INFO [main] FlightSearchTest:61 - Clicked on Flight button.
+2020-07-22 08:36:19,214  INFO [main] FlightSearchTest:63 - Search hundreds of flights at once.
+2020-07-22 08:36:19,421  INFO [main] FlightSearchTest:71 - Cancelled default origin city.
+2020-07-22 08:36:19,933  INFO [main] FlightSearchTest:73 - Origin city is entered.
+2020-07-22 08:36:20,149  INFO [main] FlightSearchTest:76 - 1
+2020-07-22 08:36:20,528  INFO [main] FlightSearchTest:78 - San Francisco, CA
+San Francisco
+SFO
+2020-07-22 08:36:21,060  INFO [main] FlightSearchTest:85 - Clicked on destination.
+2020-07-22 08:36:21,428  INFO [main] FlightSearchTest:87 - Destination city is entered.
+2020-07-22 08:36:23,027  INFO [main] FlightSearchTest:90 - 1
+2020-07-22 08:36:23,046  INFO [main] FlightSearchTest:93 - Las Vegas, NV
+McCarran
+LAS
+2020-07-22 08:36:23,433  INFO [main] FlightSearchTest:100 - Clicked on from date.
+2020-07-22 08:36:24,383  INFO [main] FlightSearchTest:102 - Selected from date.
+2020-07-22 08:36:24,623  INFO [main] FlightSearchTest:104 - Selected to date.
+2020-07-22 08:36:24,909  INFO [main] FlightSearchTest:106 - Clicked on search button.
+2020-07-22 08:36:24,909  INFO [main] FlightSearchTest:107 - Informations are entered successfully and navigated to search option page.
+2020-07-22 08:36:24,913  INFO [main] FlightSearchTest:117 - Closed pop up.
+2020-07-22 08:39:46,913  INFO [main] FlightSearchTest:61 - Clicked on Flight button.
+2020-07-22 08:39:48,280  INFO [main] FlightSearchTest:63 - Search hundreds of flights at once.
+2020-07-22 08:39:48,618  INFO [main] FlightSearchTest:71 - Cancelled default origin city.
+2020-07-22 08:39:49,128  INFO [main] FlightSearchTest:73 - Origin city is entered.
+2020-07-22 08:39:49,362  INFO [main] FlightSearchTest:76 - 1
+2020-07-22 08:39:49,390  INFO [main] FlightSearchTest:78 - San Francisco, CA
+San Francisco
+SFO
+2020-07-22 08:39:50,303  INFO [main] FlightSearchTest:85 - Clicked on destination.
+2020-07-22 08:39:50,708  INFO [main] FlightSearchTest:87 - Destination city is entered.
+2020-07-22 08:39:51,306  INFO [main] FlightSearchTest:90 - 1
+2020-07-22 08:39:51,324  INFO [main] FlightSearchTest:93 - Las Vegas, NV
+McCarran
+LAS
+2020-07-22 08:39:51,694  INFO [main] FlightSearchTest:100 - Clicked on from date.
+2020-07-22 08:39:52,584  INFO [main] FlightSearchTest:102 - Selected from date.
+2020-07-22 08:39:53,045  INFO [main] FlightSearchTest:104 - Selected to date.
+2020-07-22 08:39:53,340  INFO [main] FlightSearchTest:106 - Clicked on search button.
+2020-07-22 08:39:53,340  INFO [main] FlightSearchTest:107 - Informations are entered successfully and navigated to search option page.
+2020-07-22 08:42:28,615  INFO [main] FlightSearchTest:61 - Clicked on Flight button.
+2020-07-22 08:42:30,508  INFO [main] FlightSearchTest:63 - Search hundreds of flights at once.
+2020-07-22 08:42:31,374  INFO [main] FlightSearchTest:71 - Cancelled default origin city.
+2020-07-22 08:42:31,940  INFO [main] FlightSearchTest:73 - Origin city is entered.
+2020-07-22 08:42:32,026  INFO [main] FlightSearchTest:76 - 1
+2020-07-22 08:42:32,044  INFO [main] FlightSearchTest:78 - San Francisco, CA
+San Francisco
+SFO
+2020-07-22 08:42:32,516  INFO [main] FlightSearchTest:85 - Clicked on destination.
+2020-07-22 08:42:32,882  INFO [main] FlightSearchTest:87 - Destination city is entered.
+2020-07-22 08:42:33,445  INFO [main] FlightSearchTest:90 - 1
+2020-07-22 08:42:33,464  INFO [main] FlightSearchTest:93 - Las Vegas, NV
+McCarran
+LAS
+2020-07-22 08:42:33,846  INFO [main] FlightSearchTest:100 - Clicked on from date.
+2020-07-22 08:42:34,773  INFO [main] FlightSearchTest:102 - Selected from date.
+2020-07-22 08:42:34,999  INFO [main] FlightSearchTest:104 - Selected to date.
+2020-07-22 08:42:35,289  INFO [main] FlightSearchTest:106 - Clicked on search button.
+2020-07-22 08:42:35,290  INFO [main] FlightSearchTest:107 - Informations are entered successfully and navigated to search option page.
+2020-07-22 08:44:24,022  INFO [main] FlightSearchTest:61 - Clicked on Flight button.
+2020-07-22 08:44:25,595  INFO [main] FlightSearchTest:63 - Search hundreds of flights at once.
+2020-07-22 08:44:26,409  INFO [main] FlightSearchTest:71 - Cancelled default origin city.
+2020-07-22 08:44:26,976  INFO [main] FlightSearchTest:73 - Origin city is entered.
+2020-07-22 08:44:27,065  INFO [main] FlightSearchTest:76 - 1
+2020-07-22 08:44:27,088  INFO [main] FlightSearchTest:78 - San Francisco, CA
+San Francisco
+SFO
+2020-07-22 08:44:27,508  INFO [main] FlightSearchTest:85 - Clicked on destination.
+2020-07-22 08:44:27,896  INFO [main] FlightSearchTest:87 - Destination city is entered.
+2020-07-22 08:44:28,479  INFO [main] FlightSearchTest:90 - 1
+2020-07-22 08:44:28,503  INFO [main] FlightSearchTest:93 - Las Vegas, NV
+McCarran
+LAS
+2020-07-22 08:44:28,871  INFO [main] FlightSearchTest:100 - Clicked on from date.
+2020-07-22 08:44:29,777  INFO [main] FlightSearchTest:102 - Selected from date.
+2020-07-22 08:44:30,000  INFO [main] FlightSearchTest:104 - Selected to date.
+2020-07-22 08:44:30,282  INFO [main] FlightSearchTest:106 - Clicked on search button.
+2020-07-22 08:44:30,282  INFO [main] FlightSearchTest:107 - Informations are entered successfully and navigated to search option page.
+2020-07-22 08:47:02,075  INFO [main] FlightSearchTest:61 - Clicked on Flight button.
+2020-07-22 08:47:03,390  INFO [main] FlightSearchTest:63 - Search hundreds of flights at once.
+2020-07-22 08:47:03,712  INFO [main] FlightSearchTest:71 - Cancelled default origin city.
+2020-07-22 08:47:04,394  INFO [main] FlightSearchTest:73 - Origin city is entered.
+2020-07-22 08:47:04,843  INFO [main] FlightSearchTest:76 - 1
+2020-07-22 08:47:04,872  INFO [main] FlightSearchTest:78 - San Francisco, CA
+San Francisco
+SFO
+2020-07-22 08:47:05,372  INFO [main] FlightSearchTest:85 - Clicked on destination.
+2020-07-22 08:47:05,757  INFO [main] FlightSearchTest:87 - Destination city is entered.
+2020-07-22 08:47:07,906  INFO [main] FlightSearchTest:90 - 1
+2020-07-22 08:47:07,924  INFO [main] FlightSearchTest:93 - Las Vegas, NV
+McCarran
+LAS
+2020-07-22 08:47:08,295  INFO [main] FlightSearchTest:100 - Clicked on from date.
+2020-07-22 08:47:09,274  INFO [main] FlightSearchTest:102 - Selected from date.
+2020-07-22 08:47:09,502  INFO [main] FlightSearchTest:104 - Selected to date.
+2020-07-22 08:47:09,807  INFO [main] FlightSearchTest:106 - Clicked on search button.
+2020-07-22 08:47:09,808  INFO [main] FlightSearchTest:107 - Informations are entered successfully and navigated to search option page.
+2020-07-22 08:47:11,675  INFO [main] FlightSearchTest:118 - Closed pop up.
+2020-07-22 09:01:44,605  INFO [main] FlightSearchTest:62 - Clicked on Flight button.
+2020-07-22 09:01:46,007  INFO [main] FlightSearchTest:64 - Search hundreds of flights at once.
+2020-07-22 09:01:46,830  INFO [main] FlightSearchTest:72 - Cancelled default origin city.
+2020-07-22 09:01:47,490  INFO [main] FlightSearchTest:74 - Origin city is entered.
+2020-07-22 09:01:48,112  INFO [main] FlightSearchTest:77 - 1
+2020-07-22 09:01:48,133  INFO [main] FlightSearchTest:79 - San Francisco, CA
+San Francisco
+SFO
+2020-07-22 09:01:48,570  INFO [main] FlightSearchTest:86 - Clicked on destination.
+2020-07-22 09:01:48,969  INFO [main] FlightSearchTest:88 - Destination city is entered.
+2020-07-22 09:01:51,151  INFO [main] FlightSearchTest:91 - 1
+2020-07-22 09:01:51,217  INFO [main] FlightSearchTest:94 - Las Vegas, NV
+McCarran
+LAS
+2020-07-22 09:01:51,858  INFO [main] FlightSearchTest:101 - Clicked on from date.
+2020-07-22 09:01:53,220  INFO [main] FlightSearchTest:103 - Selected from date.
+2020-07-22 09:01:53,526  INFO [main] FlightSearchTest:105 - Selected to date.
+2020-07-22 09:01:53,972  INFO [main] FlightSearchTest:107 - Clicked on search button.
+2020-07-22 09:01:53,972  INFO [main] FlightSearchTest:108 - Informations are entered successfully and navigated to search option page.
+2020-07-22 09:01:56,308  INFO [main] FlightSearchTest:119 - Closed pop up.
+2020-07-22 09:02:47,377  INFO [main] FlightSearchTest:62 - Clicked on Flight button.
+2020-07-22 09:02:48,643  INFO [main] FlightSearchTest:64 - Search hundreds of flights at once.
+2020-07-22 09:02:48,908  INFO [main] FlightSearchTest:72 - Cancelled default origin city.
+2020-07-22 09:02:49,387  INFO [main] FlightSearchTest:74 - Origin city is entered.
+2020-07-22 09:02:50,207  INFO [main] FlightSearchTest:77 - 1
+2020-07-22 09:02:50,261  INFO [main] FlightSearchTest:79 - San Francisco, CA
+San Francisco
+SFO
+2020-07-22 09:02:50,689  INFO [main] FlightSearchTest:86 - Clicked on destination.
+2020-07-22 09:02:51,098  INFO [main] FlightSearchTest:88 - Destination city is entered.
+2020-07-22 09:02:51,667  INFO [main] FlightSearchTest:91 - 1
+2020-07-22 09:02:51,686  INFO [main] FlightSearchTest:94 - Las Vegas, NV
+McCarran
+LAS
+2020-07-22 09:02:52,072  INFO [main] FlightSearchTest:101 - Clicked on from date.
+2020-07-22 09:02:52,998  INFO [main] FlightSearchTest:103 - Selected from date.
+2020-07-22 09:02:53,227  INFO [main] FlightSearchTest:105 - Selected to date.
+2020-07-22 09:02:53,533  INFO [main] FlightSearchTest:107 - Clicked on search button.
+2020-07-22 09:02:53,533  INFO [main] FlightSearchTest:108 - Informations are entered successfully and navigated to search option page.
+2020-07-22 09:02:57,101  INFO [main] FlightSearchTest:119 - Closed pop up.
+2020-07-22 09:02:58,106  INFO [main] FlightSearchTest:123 - Option is selected.
+2020-07-22 09:02:58,459  INFO [main] FlightSearchTest:132 - San Francisco (SFO)
+2020-07-22 09:02:58,503  INFO [main] FlightSearchTest:134 - San Francisco (SFO)
+2020-07-22 09:02:58,578  INFO [main] FlightSearchTest:138 - Las Vegas (LAS)
+2020-07-22 09:02:58,674  INFO [main] FlightSearchTest:140 - Las Vegas (LAS)
+2020-07-22 09:04:10,582  INFO [main] FlightSearchTest:62 - Clicked on Flight button.
+2020-07-22 09:04:10,943  INFO [main] FlightSearchTest:64 - Search hundreds of flights at once.
+2020-07-22 09:04:12,545  INFO [main] FlightSearchTest:72 - Cancelled default origin city.
+2020-07-22 09:04:13,033  INFO [main] FlightSearchTest:74 - Origin city is entered.
+2020-07-22 09:04:14,131  INFO [main] FlightSearchTest:77 - 1
+2020-07-22 09:04:14,154  INFO [main] FlightSearchTest:79 - San Francisco, CA
+San Francisco
+SFO
+2020-07-22 09:04:14,695  INFO [main] FlightSearchTest:86 - Clicked on destination.
+2020-07-22 09:04:15,092  INFO [main] FlightSearchTest:88 - Destination city is entered.
+2020-07-22 09:04:15,660  INFO [main] FlightSearchTest:91 - 1
+2020-07-22 09:04:15,681  INFO [main] FlightSearchTest:94 - Las Vegas, NV
+McCarran
+LAS
+2020-07-22 09:04:16,057  INFO [main] FlightSearchTest:101 - Clicked on from date.
+2020-07-22 09:04:16,939  INFO [main] FlightSearchTest:103 - Selected from date.
+2020-07-22 09:04:17,165  INFO [main] FlightSearchTest:105 - Selected to date.
+2020-07-22 09:04:17,464  INFO [main] FlightSearchTest:107 - Clicked on search button.
+2020-07-22 09:04:17,464  INFO [main] FlightSearchTest:108 - Informations are entered successfully and navigated to search option page.
+2020-07-22 09:04:19,620  INFO [main] FlightSearchTest:119 - Closed pop up.
+2020-07-22 09:04:30,065  INFO [main] FlightSearchTest:62 - Clicked on Flight button.
+2020-07-22 09:04:31,444  INFO [main] FlightSearchTest:64 - Search hundreds of flights at once.
+2020-07-22 09:04:32,488  INFO [main] FlightSearchTest:72 - Cancelled default origin city.
+2020-07-22 09:04:33,127  INFO [main] FlightSearchTest:74 - Origin city is entered.
+2020-07-22 09:04:33,725  INFO [main] FlightSearchTest:77 - 1
+2020-07-22 09:04:33,747  INFO [main] FlightSearchTest:79 - Chicago, All airports
+CHI
+2020-07-22 09:04:34,197  INFO [main] FlightSearchTest:86 - Clicked on destination.
+2020-07-22 09:04:34,562  INFO [main] FlightSearchTest:88 - Destination city is entered.
+2020-07-22 09:04:37,192  INFO [main] FlightSearchTest:91 - 1
+2020-07-22 09:04:37,211  INFO [main] FlightSearchTest:94 - Atlanta, GA
+Hartsfield-Jackson
+ATL
+2020-07-22 09:04:37,641  INFO [main] FlightSearchTest:101 - Clicked on from date.
+2020-07-22 09:04:38,563  INFO [main] FlightSearchTest:103 - Selected from date.
+2020-07-22 09:04:38,829  INFO [main] FlightSearchTest:105 - Selected to date.
+2020-07-22 09:04:39,180  INFO [main] FlightSearchTest:107 - Clicked on search button.
+2020-07-22 09:04:39,180  INFO [main] FlightSearchTest:108 - Informations are entered successfully and navigated to search option page.
+2020-07-22 09:04:41,058  INFO [main] FlightSearchTest:119 - Closed pop up.
+2020-07-22 09:04:52,968  INFO [main] FlightSearchTest:62 - Clicked on Flight button.
+2020-07-22 09:04:55,324  INFO [main] FlightSearchTest:64 - Search hundreds of flights at once.
+2020-07-22 09:04:55,431 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-07-22 09:04:55,432 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-07-22 09:04:55,686  INFO [main] FlightSearchTest:72 - Cancelled default origin city.
+2020-07-22 09:04:56,845  INFO [main] FlightSearchTest:74 - Origin city is entered.
+2020-07-22 09:04:57,168  INFO [main] FlightSearchTest:77 - 1
+2020-07-22 09:04:57,192  INFO [main] FlightSearchTest:79 - New York, All airports
+NYC
+2020-07-22 09:04:57,869  INFO [main] FlightSearchTest:86 - Clicked on destination.
+2020-07-22 09:04:58,373  INFO [main] FlightSearchTest:88 - Destination city is entered.
+2020-07-22 09:04:58,994  INFO [main] FlightSearchTest:91 - 1
+2020-07-22 09:04:59,032  INFO [main] FlightSearchTest:94 - Los Angeles, CA
+Los Angeles
+LAX
+2020-07-22 09:04:59,627  INFO [main] FlightSearchTest:101 - Clicked on from date.
+2020-07-22 09:05:00,849  INFO [main] FlightSearchTest:103 - Selected from date.
+2020-07-22 09:05:01,362  INFO [main] FlightSearchTest:105 - Selected to date.
+2020-07-22 09:05:01,734  INFO [main] FlightSearchTest:107 - Clicked on search button.
+2020-07-22 09:05:01,735  INFO [main] FlightSearchTest:108 - Informations are entered successfully and navigated to search option page.
+2020-07-22 09:05:05,072  INFO [main] FlightSearchTest:119 - Closed pop up.
+2020-07-22 09:05:06,101  INFO [main] FlightSearchTest:123 - Option is selected.
+2020-07-22 09:05:10,063  INFO [main] FlightSearchTest:132 - New York (NYC)
+2020-07-22 09:05:10,170  INFO [main] FlightSearchTest:134 - New York (NYC)
+2020-07-22 09:05:10,248  INFO [main] FlightSearchTest:138 - Los Angeles (LAX)
+2020-07-22 09:05:10,341  INFO [main] FlightSearchTest:140 - Los Angeles (LAX)
+2020-07-22 09:07:21,353  INFO [main] FlightSearchTest:62 - Clicked on Flight button.
+2020-07-22 09:07:23,101  INFO [main] FlightSearchTest:64 - Search hundreds of flights at once.
+2020-07-22 09:07:23,306  INFO [main] FlightSearchTest:72 - Cancelled default origin city.
+2020-07-22 09:07:23,781  INFO [main] FlightSearchTest:74 - Origin city is entered.
+2020-07-22 09:07:24,836  INFO [main] FlightSearchTest:77 - 1
+2020-07-22 09:07:24,869  INFO [main] FlightSearchTest:79 - San Francisco, CA
+San Francisco
+SFO
+2020-07-22 09:07:25,396  INFO [main] FlightSearchTest:86 - Clicked on destination.
+2020-07-22 09:07:25,814  INFO [main] FlightSearchTest:88 - Destination city is entered.
+2020-07-22 09:07:26,385  INFO [main] FlightSearchTest:91 - 1
+2020-07-22 09:07:26,403  INFO [main] FlightSearchTest:94 - Las Vegas, NV
+McCarran
+LAS
+2020-07-22 09:07:26,786  INFO [main] FlightSearchTest:101 - Clicked on from date.
+2020-07-22 09:07:27,688  INFO [main] FlightSearchTest:103 - Selected from date.
+2020-07-22 09:07:27,913  INFO [main] FlightSearchTest:105 - Selected to date.
+2020-07-22 09:07:28,207  INFO [main] FlightSearchTest:107 - Clicked on search button.
+2020-07-22 09:07:28,207  INFO [main] FlightSearchTest:108 - Informations are entered successfully and navigated to search option page.
+2020-07-22 09:07:30,182  INFO [main] FlightSearchTest:119 - Closed pop up.
+2020-07-22 09:07:36,864  INFO [main] FlightSearchTest:62 - Clicked on Flight button.
+2020-07-22 09:07:40,966  INFO [main] FlightSearchTest:64 - Search hundreds of flights at once.
+2020-07-22 09:07:42,123  INFO [main] FlightSearchTest:72 - Cancelled default origin city.
+2020-07-22 09:07:43,222  INFO [main] FlightSearchTest:74 - Origin city is entered.
+2020-07-22 09:07:43,268 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-07-22 09:07:43,268 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-07-22 09:07:43,309  INFO [main] FlightSearchTest:77 - 1
+2020-07-22 09:07:43,333  INFO [main] FlightSearchTest:79 - Chicago, All airports
+CHI
+2020-07-22 09:07:43,810  INFO [main] FlightSearchTest:86 - Clicked on destination.
+2020-07-22 09:07:44,241  INFO [main] FlightSearchTest:88 - Destination city is entered.
+2020-07-22 09:07:45,364  INFO [main] FlightSearchTest:91 - 1
+2020-07-22 09:07:45,382  INFO [main] FlightSearchTest:94 - Atlanta, GA
+Hartsfield-Jackson
+ATL
+2020-07-22 09:07:45,780  INFO [main] FlightSearchTest:101 - Clicked on from date.
+2020-07-22 09:07:46,985  INFO [main] FlightSearchTest:103 - Selected from date.
+2020-07-22 09:07:47,250  INFO [main] FlightSearchTest:105 - Selected to date.
+2020-07-22 09:07:47,586  INFO [main] FlightSearchTest:107 - Clicked on search button.
+2020-07-22 09:07:47,586  INFO [main] FlightSearchTest:108 - Informations are entered successfully and navigated to search option page.
+2020-07-22 09:09:37,564  INFO [main] FlightSearchTest:62 - Clicked on Flight button.
+2020-07-22 09:09:38,794  INFO [main] FlightSearchTest:64 - Search hundreds of flights at once.
+2020-07-22 09:09:38,847 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-07-22 09:09:38,848 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-07-22 09:09:39,025  INFO [main] FlightSearchTest:72 - Cancelled default origin city.
+2020-07-22 09:09:39,496  INFO [main] FlightSearchTest:74 - Origin city is entered.
+2020-07-22 09:09:39,617  INFO [main] FlightSearchTest:77 - 1
+2020-07-22 09:09:39,634  INFO [main] FlightSearchTest:79 - Chicago, All airports
+CHI
+2020-07-22 09:09:40,752  INFO [main] FlightSearchTest:86 - Clicked on destination.
+2020-07-22 09:09:41,116  INFO [main] FlightSearchTest:88 - Destination city is entered.
+2020-07-22 09:09:41,684  INFO [main] FlightSearchTest:91 - 1
+2020-07-22 09:09:41,707  INFO [main] FlightSearchTest:94 - Atlanta, GA
+Hartsfield-Jackson
+ATL
+2020-07-22 09:09:42,223  INFO [main] FlightSearchTest:101 - Clicked on from date.
+2020-07-22 09:09:43,185  INFO [main] FlightSearchTest:103 - Selected from date.
+2020-07-22 09:09:43,527  INFO [main] FlightSearchTest:105 - Selected to date.
+2020-07-22 09:09:43,864  INFO [main] FlightSearchTest:107 - Clicked on search button.
+2020-07-22 09:09:43,866  INFO [main] FlightSearchTest:108 - Informations are entered successfully and navigated to search option page.
+2020-07-22 09:09:45,875  INFO [main] FlightSearchTest:119 - Closed pop up.
+2020-07-22 09:09:57,726 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-07-22 09:09:57,726 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-07-22 09:10:44,257  INFO [main] FlightSearchTest:62 - Clicked on Flight button.
+2020-07-22 09:10:46,220  INFO [main] FlightSearchTest:64 - Search hundreds of flights at once.
+2020-07-22 09:10:47,010  INFO [main] FlightSearchTest:72 - Cancelled default origin city.
+2020-07-22 09:10:47,597  INFO [main] FlightSearchTest:74 - Origin city is entered.
+2020-07-22 09:10:48,182  INFO [main] FlightSearchTest:77 - 1
+2020-07-22 09:10:48,206  INFO [main] FlightSearchTest:79 - San Francisco, CA
+San Francisco
+SFO
+2020-07-22 09:10:48,651  INFO [main] FlightSearchTest:86 - Clicked on destination.
+2020-07-22 09:10:49,058  INFO [main] FlightSearchTest:88 - Destination city is entered.
+2020-07-22 09:10:56,372  INFO [main] FlightSearchTest:91 - 1
+2020-07-22 09:10:56,390  INFO [main] FlightSearchTest:94 - Las Vegas, NV
+McCarran
+LAS
+2020-07-22 09:10:56,778  INFO [main] FlightSearchTest:101 - Clicked on from date.
+2020-07-22 09:10:57,678  INFO [main] FlightSearchTest:103 - Selected from date.
+2020-07-22 09:10:57,966  INFO [main] FlightSearchTest:105 - Selected to date.
+2020-07-22 09:10:58,270  INFO [main] FlightSearchTest:107 - Clicked on search button.
+2020-07-22 09:10:58,270  INFO [main] FlightSearchTest:108 - Informations are entered successfully and navigated to search option page.
+2020-07-22 09:11:00,184  INFO [main] FlightSearchTest:119 - Closed pop up.
+2020-07-22 09:11:42,309 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-07-22 09:11:42,311 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-07-22 09:11:42,311 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-07-22 09:11:42,311 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-07-22 09:15:18,227  INFO [main] FlightSearchTest:62 - Clicked on Flight button.
+2020-07-22 09:15:20,224  INFO [main] FlightSearchTest:64 - Search hundreds of flights at once.
+2020-07-22 09:15:20,464  INFO [main] FlightSearchTest:72 - Cancelled default origin city.
+2020-07-22 09:15:21,014  INFO [main] FlightSearchTest:74 - Origin city is entered.
+2020-07-22 09:15:21,827  INFO [main] FlightSearchTest:77 - 1
+2020-07-22 09:15:21,856  INFO [main] FlightSearchTest:79 - San Francisco, CA
+San Francisco
+SFO
+2020-07-22 09:15:22,321  INFO [main] FlightSearchTest:86 - Clicked on destination.
+2020-07-22 09:15:22,732  INFO [main] FlightSearchTest:88 - Destination city is entered.
+2020-07-22 09:15:23,845  INFO [main] FlightSearchTest:91 - 1
+2020-07-22 09:15:23,864  INFO [main] FlightSearchTest:94 - Las Vegas, NV
+McCarran
+LAS
+2020-07-22 09:15:24,224  INFO [main] FlightSearchTest:101 - Clicked on from date.
+2020-07-22 09:15:25,144  INFO [main] FlightSearchTest:103 - Selected from date.
+2020-07-22 09:15:25,367  INFO [main] FlightSearchTest:105 - Selected to date.
+2020-07-22 09:15:25,659  INFO [main] FlightSearchTest:107 - Clicked on search button.
+2020-07-22 09:15:25,660  INFO [main] FlightSearchTest:108 - Informations are entered successfully and navigated to search option page.
+2020-07-22 09:15:27,578  INFO [main] FlightSearchTest:119 - Closed pop up.
+2020-07-22 09:17:58,912  INFO [main] FlightSearchTest:62 - Clicked on Flight button.
+2020-07-22 09:18:00,705  INFO [main] FlightSearchTest:64 - Search hundreds of flights at once.
+2020-07-22 09:18:00,981  INFO [main] FlightSearchTest:72 - Cancelled default origin city.
+2020-07-22 09:18:02,000  INFO [main] FlightSearchTest:74 - Origin city is entered.
+2020-07-22 09:18:02,603  INFO [main] FlightSearchTest:77 - 1
+2020-07-22 09:18:02,621  INFO [main] FlightSearchTest:79 - San Francisco, CA
+San Francisco
+SFO
+2020-07-22 09:18:03,037  INFO [main] FlightSearchTest:86 - Clicked on destination.
+2020-07-22 09:18:03,433  INFO [main] FlightSearchTest:88 - Destination city is entered.
+2020-07-22 09:18:05,576  INFO [main] FlightSearchTest:91 - 1
+2020-07-22 09:18:05,595  INFO [main] FlightSearchTest:94 - Las Vegas, NV
+McCarran
+LAS
+2020-07-22 09:18:05,995  INFO [main] FlightSearchTest:101 - Clicked on from date.
+2020-07-22 09:18:06,918  INFO [main] FlightSearchTest:103 - Selected from date.
+2020-07-22 09:18:07,157  INFO [main] FlightSearchTest:105 - Selected to date.
+2020-07-22 09:18:07,479  INFO [main] FlightSearchTest:107 - Clicked on search button.
+2020-07-22 09:18:07,479  INFO [main] FlightSearchTest:108 - Informations are entered successfully and navigated to search option page.
+2020-07-22 09:18:09,626  INFO [main] FlightSearchTest:119 - Closed pop up.
+2020-07-22 09:18:11,877  INFO [main] FlightSearchTest:123 - Option is selected.
+2020-07-22 09:18:12,050  INFO [main] FlightSearchTest:133 - San Francisco (SFO)
+2020-07-22 09:18:12,152  INFO [main] FlightSearchTest:135 - San Francisco (SFO)
+2020-07-22 09:18:12,204  INFO [main] FlightSearchTest:139 - Las Vegas (LAS)
+2020-07-22 09:18:12,240  INFO [main] FlightSearchTest:141 - Las Vegas (LAS)
+2020-07-22 09:18:58,694  INFO [main] FlightSearchTest:62 - Clicked on Flight button.
+2020-07-22 09:19:00,552  INFO [main] FlightSearchTest:64 - Search hundreds of flights at once.
+2020-07-22 09:19:01,411  INFO [main] FlightSearchTest:72 - Cancelled default origin city.
+2020-07-22 09:19:01,978  INFO [main] FlightSearchTest:74 - Origin city is entered.
+2020-07-22 09:19:02,559  INFO [main] FlightSearchTest:77 - 1
+2020-07-22 09:19:02,579  INFO [main] FlightSearchTest:79 - San Francisco, CA
+San Francisco
+SFO
+2020-07-22 09:19:03,009  INFO [main] FlightSearchTest:86 - Clicked on destination.
+2020-07-22 09:19:03,374  INFO [main] FlightSearchTest:88 - Destination city is entered.
+2020-07-22 09:19:04,451  INFO [main] FlightSearchTest:91 - 1
+2020-07-22 09:19:04,477  INFO [main] FlightSearchTest:94 - Las Vegas, NV
+McCarran
+LAS
+2020-07-22 09:19:04,871  INFO [main] FlightSearchTest:101 - Clicked on from date.
+2020-07-22 09:19:05,814  INFO [main] FlightSearchTest:103 - Selected from date.
+2020-07-22 09:19:06,032  INFO [main] FlightSearchTest:105 - Selected to date.
+2020-07-22 09:19:06,340  INFO [main] FlightSearchTest:107 - Clicked on search button.
+2020-07-22 09:19:06,340  INFO [main] FlightSearchTest:108 - Informations are entered successfully and navigated to search option page.
+2020-07-22 09:19:08,589  INFO [main] FlightSearchTest:119 - Closed pop up.
+2020-07-22 09:19:11,201  INFO [main] FlightSearchTest:123 - Option is selected.
+2020-07-22 09:19:11,466  INFO [main] FlightSearchTest:133 - San Francisco (SFO)
+2020-07-22 09:19:11,507  INFO [main] FlightSearchTest:135 - San Francisco (SFO)
+2020-07-22 09:19:11,554  INFO [main] FlightSearchTest:139 - Las Vegas (LAS)
+2020-07-22 09:19:11,592  INFO [main] FlightSearchTest:141 - Las Vegas (LAS)
+2020-07-22 09:20:02,008  INFO [main] FlightSearchTest:62 - Clicked on Flight button.
+2020-07-22 09:20:05,623  INFO [main] FlightSearchTest:64 - Search hundreds of flights at once.
+2020-07-22 09:20:06,733  INFO [main] FlightSearchTest:72 - Cancelled default origin city.
+2020-07-22 09:20:07,346  INFO [main] FlightSearchTest:74 - Origin city is entered.
+2020-07-22 09:20:07,389 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-07-22 09:20:07,390 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-07-22 09:20:07,453  INFO [main] FlightSearchTest:77 - 1
+2020-07-22 09:20:07,472  INFO [main] FlightSearchTest:79 - Chicago, All airports
+CHI
+2020-07-22 09:20:07,966  INFO [main] FlightSearchTest:86 - Clicked on destination.
+2020-07-22 09:20:08,492  INFO [main] FlightSearchTest:88 - Destination city is entered.
+2020-07-22 09:20:09,067  INFO [main] FlightSearchTest:91 - 1
+2020-07-22 09:20:09,107  INFO [main] FlightSearchTest:94 - Atlanta, GA
+Hartsfield-Jackson
+ATL
+2020-07-22 09:20:09,474  INFO [main] FlightSearchTest:101 - Clicked on from date.
+2020-07-22 09:20:11,197  INFO [main] FlightSearchTest:103 - Selected from date.
+2020-07-22 09:20:11,692  INFO [main] FlightSearchTest:105 - Selected to date.
+2020-07-22 09:20:12,088  INFO [main] FlightSearchTest:107 - Clicked on search button.
+2020-07-22 09:20:12,090  INFO [main] FlightSearchTest:108 - Informations are entered successfully and navigated to search option page.
+2020-07-22 09:20:14,945  INFO [main] FlightSearchTest:119 - Closed pop up.
+2020-07-22 09:20:20,507  INFO [main] FlightSearchTest:123 - Option is selected.
+2020-07-22 09:20:23,297  INFO [main] FlightSearchTest:133 - Chicago (CHI)
+2020-07-22 09:20:23,505  INFO [main] FlightSearchTest:135 - Chicago (CHI)
+2020-07-22 09:20:24,634  INFO [main] FlightSearchTest:139 - Atlanta (ATL)
+2020-07-22 09:20:29,313  INFO [main] FlightSearchTest:141 - Atlanta (ATL)
+2020-07-22 13:41:29,136  INFO [main] FlightSearchTest:62 - Clicked on Flight button.
+2020-07-22 13:41:31,187  INFO [main] FlightSearchTest:64 - Search hundreds of flights at once.
+2020-07-22 13:41:31,418  INFO [main] FlightSearchTest:72 - Cancelled default origin city.
+2020-07-22 13:41:31,925  INFO [main] FlightSearchTest:74 - Origin city is entered.
+2020-07-22 13:41:32,039  INFO [main] FlightSearchTest:77 - 1
+2020-07-22 13:41:32,062  INFO [main] FlightSearchTest:79 - San Francisco, CA
+San Francisco
+SFO
+2020-07-22 13:41:33,137  INFO [main] FlightSearchTest:86 - Clicked on destination.
+2020-07-22 13:41:33,556  INFO [main] FlightSearchTest:88 - Destination city is entered.
+2020-07-22 13:41:34,134  INFO [main] FlightSearchTest:91 - 1
+2020-07-22 13:41:34,162  INFO [main] FlightSearchTest:94 - Las Vegas, NV
+McCarran
+LAS
+2020-07-22 13:41:34,576  INFO [main] FlightSearchTest:101 - Clicked on from date.
+2020-07-22 13:41:35,567  INFO [main] FlightSearchTest:103 - Selected from date.
+2020-07-22 13:41:35,815  INFO [main] FlightSearchTest:105 - Selected to date.
+2020-07-22 13:41:36,111  INFO [main] FlightSearchTest:107 - Clicked on search button.
+2020-07-22 13:41:36,111  INFO [main] FlightSearchTest:108 - Informations are entered successfully and navigated to search option page.
+2020-07-22 13:41:39,894  INFO [main] FlightSearchTest:119 - Closed pop up.
+2020-07-22 13:41:40,296  INFO [main] FlightSearchTest:123 - Option is selected.
+2020-07-22 13:41:40,472  INFO [main] FlightSearchTest:133 - San Francisco (SFO)
+2020-07-22 13:41:40,613  INFO [main] FlightSearchTest:135 - San Francisco (SFO)
+2020-07-22 13:41:45,336  INFO [main] FlightSearchTest:139 - Las Vegas (LAS)
+2020-07-22 13:41:45,445  INFO [main] FlightSearchTest:141 - Las Vegas (LAS)
+2020-07-22 13:43:36,855  INFO [main] FlightSearchTest:62 - Clicked on Flight button.
+2020-07-22 13:43:38,643  INFO [main] FlightSearchTest:64 - Search hundreds of flights at once.
+2020-07-22 13:43:38,845  INFO [main] FlightSearchTest:72 - Cancelled default origin city.
+2020-07-22 13:43:39,288  INFO [main] FlightSearchTest:74 - Origin city is entered.
+2020-07-22 13:43:39,963  INFO [main] FlightSearchTest:77 - 1
+2020-07-22 13:43:40,005  INFO [main] FlightSearchTest:79 - San Francisco, CA
+San Francisco
+SFO
+2020-07-22 13:43:40,854  INFO [main] FlightSearchTest:86 - Clicked on destination.
+2020-07-22 13:43:41,211  INFO [main] FlightSearchTest:88 - Destination city is entered.
+2020-07-22 13:43:44,878  INFO [main] FlightSearchTest:91 - 1
+2020-07-22 13:43:44,897  INFO [main] FlightSearchTest:94 - Las Vegas, NV
+McCarran
+LAS
+2020-07-22 13:43:45,246  INFO [main] FlightSearchTest:101 - Clicked on from date.
+2020-07-22 13:43:46,075  INFO [main] FlightSearchTest:103 - Selected from date.
+2020-07-22 13:43:46,307  INFO [main] FlightSearchTest:105 - Selected to date.
+2020-07-22 13:43:46,580  INFO [main] FlightSearchTest:107 - Clicked on search button.
+2020-07-22 13:43:46,581  INFO [main] FlightSearchTest:108 - Informations are entered successfully and navigated to search option page.
+2020-07-22 13:43:48,294  INFO [main] FlightSearchTest:119 - Closed pop up.
+2020-07-22 13:43:50,942  INFO [main] FlightSearchTest:123 - Option is selected.
+2020-07-22 13:43:51,101  INFO [main] FlightSearchTest:133 - San Francisco (SFO)
+2020-07-22 13:43:51,215  INFO [main] FlightSearchTest:135 - San Francisco (SFO)
+2020-07-22 13:43:51,266  INFO [main] FlightSearchTest:139 - Las Vegas (LAS)
+2020-07-22 13:43:51,312  INFO [main] FlightSearchTest:141 - Las Vegas (LAS)
+2020-07-22 13:44:30,987  INFO [main] FlightSearchTest:62 - Clicked on Flight button.
+2020-07-22 13:44:32,156  INFO [main] FlightSearchTest:64 - Search hundreds of flights at once.
+2020-07-22 13:44:32,383  INFO [main] FlightSearchTest:72 - Cancelled default origin city.
+2020-07-22 13:44:32,791  INFO [main] FlightSearchTest:74 - Origin city is entered.
+2020-07-22 13:44:32,863  INFO [main] FlightSearchTest:77 - 1
+2020-07-22 13:44:32,883  INFO [main] FlightSearchTest:79 - San Francisco, CA
+San Francisco
+SFO
+2020-07-22 13:44:33,238  INFO [main] FlightSearchTest:86 - Clicked on destination.
+2020-07-22 13:44:33,677  INFO [main] FlightSearchTest:88 - Destination city is entered.
+2020-07-22 13:44:34,618  INFO [main] FlightSearchTest:91 - 1
+2020-07-22 13:44:34,642  INFO [main] FlightSearchTest:94 - Las Vegas, NV
+McCarran
+LAS
+2020-07-22 13:44:35,117  INFO [main] FlightSearchTest:101 - Clicked on from date.
+2020-07-22 13:44:36,005  INFO [main] FlightSearchTest:103 - Selected from date.
+2020-07-22 13:44:36,215  INFO [main] FlightSearchTest:105 - Selected to date.
+2020-07-22 13:44:36,513  INFO [main] FlightSearchTest:107 - Clicked on search button.
+2020-07-22 13:44:36,513  INFO [main] FlightSearchTest:108 - Informations are entered successfully and navigated to search option page.
+2020-07-22 13:44:38,747  INFO [main] FlightSearchTest:119 - Closed pop up.
+2020-07-22 13:44:42,829  INFO [main] FlightSearchTest:123 - Option is selected.
+2020-07-22 13:44:42,969  INFO [main] FlightSearchTest:133 - San Francisco (SFO)
+2020-07-22 13:44:43,071  INFO [main] FlightSearchTest:135 - San Francisco (SFO)
+2020-07-22 13:44:43,110  INFO [main] FlightSearchTest:139 - Las Vegas (LAS)
+2020-07-22 13:44:43,148  INFO [main] FlightSearchTest:141 - Las Vegas (LAS)
+2020-07-22 13:44:48,532  INFO [main] FlightSearchTest:62 - Clicked on Flight button.
+2020-07-22 13:44:49,521  INFO [main] FlightSearchTest:64 - Search hundreds of flights at once.
+2020-07-22 13:44:50,051  INFO [main] FlightSearchTest:72 - Cancelled default origin city.
+2020-07-22 13:44:50,782  INFO [main] FlightSearchTest:74 - Origin city is entered.
+2020-07-22 13:44:51,027  INFO [main] FlightSearchTest:77 - 1
+2020-07-22 13:44:51,044  INFO [main] FlightSearchTest:79 - Chicago, All airports
+CHI
+2020-07-22 13:44:51,453  INFO [main] FlightSearchTest:86 - Clicked on destination.
+2020-07-22 13:44:51,790  INFO [main] FlightSearchTest:88 - Destination city is entered.
+2020-07-22 13:44:52,349  INFO [main] FlightSearchTest:91 - 1
+2020-07-22 13:44:52,366  INFO [main] FlightSearchTest:94 - Atlanta, GA
+Hartsfield-Jackson
+ATL
+2020-07-22 13:44:52,704  INFO [main] FlightSearchTest:101 - Clicked on from date.
+2020-07-22 13:44:53,542  INFO [main] FlightSearchTest:103 - Selected from date.
+2020-07-22 13:44:53,749  INFO [main] FlightSearchTest:105 - Selected to date.
+2020-07-22 13:44:54,014  INFO [main] FlightSearchTest:107 - Clicked on search button.
+2020-07-22 13:44:54,014  INFO [main] FlightSearchTest:108 - Informations are entered successfully and navigated to search option page.
+2020-07-22 13:44:57,172  INFO [main] FlightSearchTest:119 - Closed pop up.
+2020-07-22 13:44:57,913  INFO [main] FlightSearchTest:123 - Option is selected.
+2020-07-22 13:44:58,080  INFO [main] FlightSearchTest:133 - Chicago (CHI)
+2020-07-22 13:44:58,129  INFO [main] FlightSearchTest:135 - Chicago (CHI)
+2020-07-22 13:44:58,174  INFO [main] FlightSearchTest:139 - Atlanta (ATL)
+2020-07-22 13:44:58,209  INFO [main] FlightSearchTest:141 - Atlanta (ATL)
+2020-07-22 14:08:18,607  INFO [main] FlightSearchTest:62 - Clicked on Flight button.
+2020-07-22 14:08:19,874  INFO [main] FlightSearchTest:64 - Search hundreds of flights at once.
+2020-07-22 14:08:20,803  INFO [main] FlightSearchTest:72 - Cancelled default origin city.
+2020-07-22 14:08:21,310  INFO [main] FlightSearchTest:74 - Origin city is entered.
+2020-07-22 14:08:21,398  INFO [main] FlightSearchTest:77 - 1
+2020-07-22 14:08:21,417  INFO [main] FlightSearchTest:79 - San Francisco, CA
+San Francisco
+SFO
+2020-07-22 14:08:21,875  INFO [main] FlightSearchTest:86 - Clicked on destination.
+2020-07-22 14:08:22,261  INFO [main] FlightSearchTest:88 - Destination city is entered.
+2020-07-22 14:08:23,918  INFO [main] FlightSearchTest:91 - 1
+2020-07-22 14:08:23,941  INFO [main] FlightSearchTest:94 - Las Vegas, NV
+McCarran
+LAS
+2020-07-22 14:08:24,312  INFO [main] FlightSearchTest:101 - Clicked on from date.
+2020-07-22 14:08:25,176  INFO [main] FlightSearchTest:103 - Selected from date.
+2020-07-22 14:08:25,402  INFO [main] FlightSearchTest:105 - Selected to date.
+2020-07-22 14:08:25,711  INFO [main] FlightSearchTest:107 - Clicked on search button.
+2020-07-22 14:08:25,711  INFO [main] FlightSearchTest:108 - Informations are entered successfully and navigated to search option page.
+2020-07-22 14:08:27,525  INFO [main] FlightSearchTest:119 - Closed pop up.
+2020-07-22 14:08:29,639  INFO [main] FlightSearchTest:123 - Option is selected.
+2020-07-22 14:08:29,727  INFO [main] FlightSearchTest:133 - San Francisco (SFO)
+2020-07-22 14:08:29,859  INFO [main] FlightSearchTest:135 - San Francisco (SFO)
+2020-07-22 14:08:29,905  INFO [main] FlightSearchTest:139 - Las Vegas (LAS)
+2020-07-22 14:08:29,940  INFO [main] FlightSearchTest:141 - Las Vegas (LAS)
+2020-07-22 14:08:47,884 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-07-22 14:08:47,884 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-07-22 14:08:47,885 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-07-22 14:08:47,886 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-07-22 14:08:50,781  INFO [main] FlightSearchTest:62 - Clicked on Flight button.
+2020-07-22 14:08:51,787  INFO [main] FlightSearchTest:64 - Search hundreds of flights at once.
+2020-07-22 14:08:52,861  INFO [main] FlightSearchTest:72 - Cancelled default origin city.
+2020-07-22 14:08:53,344  INFO [main] FlightSearchTest:74 - Origin city is entered.
+2020-07-22 14:08:53,915  INFO [main] FlightSearchTest:77 - 1
+2020-07-22 14:08:53,941  INFO [main] FlightSearchTest:79 - New York, All airports
+NYC
+2020-07-22 14:08:54,391  INFO [main] FlightSearchTest:86 - Clicked on destination.
+2020-07-22 14:08:54,769  INFO [main] FlightSearchTest:88 - Destination city is entered.
+2020-07-22 14:08:56,908  INFO [main] FlightSearchTest:91 - 1
+2020-07-22 14:08:56,929  INFO [main] FlightSearchTest:94 - Los Angeles, CA
+Los Angeles
+LAX
+2020-07-22 14:08:57,276  INFO [main] FlightSearchTest:101 - Clicked on from date.
+2020-07-22 14:08:58,108  INFO [main] FlightSearchTest:103 - Selected from date.
+2020-07-22 14:08:58,328  INFO [main] FlightSearchTest:105 - Selected to date.
+2020-07-22 14:08:58,619  INFO [main] FlightSearchTest:107 - Clicked on search button.
+2020-07-22 14:08:58,619  INFO [main] FlightSearchTest:108 - Informations are entered successfully and navigated to search option page.
+2020-07-22 14:09:00,307  INFO [main] FlightSearchTest:119 - Closed pop up.
+2020-07-22 14:09:03,181  INFO [main] FlightSearchTest:123 - Option is selected.
+2020-07-22 14:09:03,280  INFO [main] FlightSearchTest:133 - New York (NYC)
+2020-07-22 14:09:03,400  INFO [main] FlightSearchTest:135 - New York (NYC)
+2020-07-22 14:09:03,524  INFO [main] FlightSearchTest:139 - Los Angeles (LAX)
+2020-07-22 14:09:03,611  INFO [main] FlightSearchTest:141 - Los Angeles (LAX)
+2020-07-22 14:22:45,790  INFO [main] FlightSearchTest:62 - Clicked on Flight button.
+2020-07-22 14:22:46,810  INFO [main] FlightSearchTest:64 - Search hundreds of flights at once.
+2020-07-22 14:22:47,248  INFO [main] FlightSearchTest:72 - Cancelled default origin city.
+2020-07-22 14:22:47,604  INFO [main] FlightSearchTest:74 - Origin city is entered.
+2020-07-22 14:22:48,170 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-07-22 14:22:48,171 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-07-22 14:22:48,206  INFO [main] FlightSearchTest:77 - 1
+2020-07-22 14:22:48,226  INFO [main] FlightSearchTest:79 - Chicago, All airports
+CHI
+2020-07-22 14:22:48,758  INFO [main] FlightSearchTest:86 - Clicked on destination.
+2020-07-22 14:22:49,466  INFO [main] FlightSearchTest:88 - Destination city is entered.
+2020-07-22 14:22:49,530  INFO [main] FlightSearchTest:91 - 1
+2020-07-22 14:22:49,551  INFO [main] FlightSearchTest:94 - Atlanta, GA
+Hartsfield-Jackson
+ATL
+2020-07-22 14:22:49,931  INFO [main] FlightSearchTest:101 - Clicked on from date.
+2020-07-22 14:22:50,877  INFO [main] FlightSearchTest:103 - Selected from date.
+2020-07-22 14:22:51,099  INFO [main] FlightSearchTest:105 - Selected to date.
+2020-07-22 14:22:51,396  INFO [main] FlightSearchTest:107 - Clicked on search button.
+2020-07-22 14:22:51,398  INFO [main] FlightSearchTest:108 - Informations are entered successfully and navigated to search option page.
+2020-07-22 14:22:53,599  INFO [main] FlightSearchTest:119 - Closed pop up.
+2020-07-22 14:22:55,043  INFO [main] FlightSearchTest:123 - Option is selected.
+2020-07-22 14:22:55,267  INFO [main] FlightSearchTest:133 - Chicago (CHI)
+2020-07-22 14:22:55,330  INFO [main] FlightSearchTest:135 - Chicago (CHI)
+2020-07-22 14:22:55,383  INFO [main] FlightSearchTest:139 - Atlanta (ATL)
+2020-07-22 14:22:55,481  INFO [main] FlightSearchTest:141 - Atlanta (ATL)
+2020-07-22 14:23:00,759  INFO [main] FlightSearchTest:62 - Clicked on Flight button.
+2020-07-22 14:23:01,287 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-07-22 14:23:01,287 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-07-22 14:23:01,765  INFO [main] FlightSearchTest:64 - Search hundreds of flights at once.
+2020-07-22 14:23:02,208  INFO [main] FlightSearchTest:72 - Cancelled default origin city.
+2020-07-22 14:23:02,580  INFO [main] FlightSearchTest:74 - Origin city is entered.
+2020-07-22 14:23:03,467  INFO [main] FlightSearchTest:77 - 1
+2020-07-22 14:23:03,549  INFO [main] FlightSearchTest:79 - New York, All airports
+NYC
+2020-07-22 14:23:04,043  INFO [main] FlightSearchTest:86 - Clicked on destination.
+2020-07-22 14:23:04,391  INFO [main] FlightSearchTest:88 - Destination city is entered.
+2020-07-22 14:23:07,556  INFO [main] FlightSearchTest:91 - 1
+2020-07-22 14:23:07,575  INFO [main] FlightSearchTest:94 - Los Angeles, CA
+Los Angeles
+LAX
+2020-07-22 14:23:07,916  INFO [main] FlightSearchTest:101 - Clicked on from date.
+2020-07-22 14:23:08,733  INFO [main] FlightSearchTest:103 - Selected from date.
+2020-07-22 14:23:08,958  INFO [main] FlightSearchTest:105 - Selected to date.
+2020-07-22 14:23:09,249  INFO [main] FlightSearchTest:107 - Clicked on search button.
+2020-07-22 14:23:09,249  INFO [main] FlightSearchTest:108 - Informations are entered successfully and navigated to search option page.
+2020-07-22 14:23:11,225  INFO [main] FlightSearchTest:119 - Closed pop up.
+2020-07-22 14:23:15,204  INFO [main] FlightSearchTest:123 - Option is selected.
+2020-07-22 14:23:15,391  INFO [main] FlightSearchTest:133 - New York (NYC)
+2020-07-22 14:23:15,501  INFO [main] FlightSearchTest:135 - New York (NYC)
+2020-07-22 14:23:15,540  INFO [main] FlightSearchTest:139 - Los Angeles (LAX)
+2020-07-22 14:23:15,576  INFO [main] FlightSearchTest:141 - Los Angeles (LAX)
+2020-07-22 14:58:50,153  INFO [main] FlightSearchTest:62 - Clicked on Flight button.
+2020-07-22 14:58:51,573  INFO [main] FlightSearchTest:64 - Search hundreds of flights at once.
+2020-07-22 14:58:51,839  INFO [main] FlightSearchTest:72 - Cancelled default origin city.
+2020-07-22 14:58:52,796  INFO [main] FlightSearchTest:74 - Origin city is entered.
+2020-07-22 14:58:52,868  INFO [main] FlightSearchTest:77 - 1
+2020-07-22 14:58:52,887  INFO [main] FlightSearchTest:79 - San Francisco, CA
+San Francisco
+SFO
+2020-07-22 14:58:53,327  INFO [main] FlightSearchTest:86 - Clicked on destination.
+2020-07-22 14:58:53,717  INFO [main] FlightSearchTest:88 - Destination city is entered.
+2020-07-22 14:58:59,980  INFO [main] FlightSearchTest:91 - 1
+2020-07-22 14:58:59,996  INFO [main] FlightSearchTest:94 - Las Vegas, NV
+McCarran
+LAS
+2020-07-22 14:59:00,357  INFO [main] FlightSearchTest:101 - Clicked on from date.
+2020-07-22 14:59:01,220  INFO [main] FlightSearchTest:103 - Selected from date.
+2020-07-22 14:59:01,677  INFO [main] FlightSearchTest:105 - Selected to date.
+2020-07-22 14:59:01,959  INFO [main] FlightSearchTest:107 - Clicked on search button.
+2020-07-22 14:59:01,959  INFO [main] FlightSearchTest:108 - Informations are entered successfully and navigated to search option page.
+2020-07-22 14:59:04,638  INFO [main] FlightSearchTest:119 - Closed pop up.
+2020-07-22 14:59:05,292  INFO [main] FlightSearchTest:123 - Option is selected.
+2020-07-22 14:59:05,379  INFO [main] FlightSearchTest:133 - San Francisco (SFO)
+2020-07-22 14:59:05,443  INFO [main] FlightSearchTest:135 - San Francisco (SFO)
+2020-07-22 14:59:05,534  INFO [main] FlightSearchTest:139 - Las Vegas (LAS)
+2020-07-22 14:59:05,570  INFO [main] FlightSearchTest:141 - Las Vegas (LAS)
+2020-07-22 14:59:44,197  INFO [main] FlightSearchTest:62 - Clicked on Flight button.
+2020-07-22 14:59:45,766  INFO [main] FlightSearchTest:64 - Search hundreds of flights at once.
+2020-07-22 14:59:45,943  INFO [main] FlightSearchTest:72 - Cancelled default origin city.
+2020-07-22 14:59:46,328  INFO [main] FlightSearchTest:74 - Origin city is entered.
+2020-07-22 14:59:46,427  INFO [main] FlightSearchTest:77 - 1
+2020-07-22 14:59:46,555  INFO [main] FlightSearchTest:79 - New York, All airports
+NYC
+2020-07-22 14:59:47,094 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-07-22 14:59:47,095 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-07-22 14:59:47,348  INFO [main] FlightSearchTest:86 - Clicked on destination.
+2020-07-22 14:59:47,700  INFO [main] FlightSearchTest:88 - Destination city is entered.
+2020-07-22 14:59:48,263  INFO [main] FlightSearchTest:91 - 1
+2020-07-22 14:59:48,282  INFO [main] FlightSearchTest:94 - Los Angeles, CA
+Los Angeles
+LAX
+2020-07-22 14:59:48,640  INFO [main] FlightSearchTest:101 - Clicked on from date.
+2020-07-22 14:59:49,470  INFO [main] FlightSearchTest:103 - Selected from date.
+2020-07-22 14:59:49,710  INFO [main] FlightSearchTest:105 - Selected to date.
+2020-07-22 14:59:49,978  INFO [main] FlightSearchTest:107 - Clicked on search button.
+2020-07-22 14:59:49,980  INFO [main] FlightSearchTest:108 - Informations are entered successfully and navigated to search option page.
+2020-07-22 14:59:51,766  INFO [main] FlightSearchTest:119 - Closed pop up.
+2020-07-22 14:59:53,337  INFO [main] FlightSearchTest:123 - Option is selected.
+2020-07-22 14:59:53,593  INFO [main] FlightSearchTest:133 - New York (NYC)
+2020-07-22 14:59:53,640  INFO [main] FlightSearchTest:135 - New York (NYC)
+2020-07-22 14:59:53,693  INFO [main] FlightSearchTest:139 - Los Angeles (LAX)
+2020-07-22 14:59:53,728  INFO [main] FlightSearchTest:141 - Los Angeles (LAX)
+2020-07-22 15:09:06,034  INFO [main] FlightSearchTest:62 - Clicked on Flight button.
+2020-07-22 15:09:07,181  INFO [main] FlightSearchTest:64 - Search hundreds of flights at once.
+2020-07-22 15:09:07,363  INFO [main] FlightSearchTest:72 - Cancelled default origin city.
+2020-07-22 15:09:08,212  INFO [main] FlightSearchTest:74 - Origin city is entered.
+2020-07-22 15:09:08,465  INFO [main] FlightSearchTest:77 - 1
+2020-07-22 15:09:08,484  INFO [main] FlightSearchTest:79 - San Francisco, CA
+San Francisco
+SFO
+2020-07-22 15:09:08,897  INFO [main] FlightSearchTest:86 - Clicked on destination.
+2020-07-22 15:09:09,275  INFO [main] FlightSearchTest:88 - Destination city is entered.
+2020-07-22 15:09:09,853  INFO [main] FlightSearchTest:91 - 1
+2020-07-22 15:09:09,870  INFO [main] FlightSearchTest:94 - Las Vegas, NV
+McCarran
+LAS
+2020-07-22 15:09:10,237  INFO [main] FlightSearchTest:101 - Clicked on from date.
+2020-07-22 15:09:11,106  INFO [main] FlightSearchTest:103 - Selected from date.
+2020-07-22 15:09:11,319  INFO [main] FlightSearchTest:105 - Selected to date.
+2020-07-22 15:09:11,597  INFO [main] FlightSearchTest:107 - Clicked on search button.
+2020-07-22 15:09:11,597  INFO [main] FlightSearchTest:108 - Informations are entered successfully and navigated to search option page.
+2020-07-22 15:09:13,316  INFO [main] FlightSearchTest:119 - Closed pop up.
+2020-07-22 15:09:15,172  INFO [main] FlightSearchTest:123 - Option is selected.
+2020-07-22 15:09:15,446  INFO [main] FlightSearchTest:133 - San Francisco (SFO)
+2020-07-22 15:09:15,500  INFO [main] FlightSearchTest:135 - San Francisco (SFO)
+2020-07-22 15:09:15,547  INFO [main] FlightSearchTest:139 - Las Vegas (LAS)
+2020-07-22 15:09:15,582  INFO [main] FlightSearchTest:141 - Las Vegas (LAS)
+2020-07-22 15:09:20,737  INFO [main] FlightSearchTest:62 - Clicked on Flight button.
+2020-07-22 15:09:21,696  INFO [main] FlightSearchTest:64 - Search hundreds of flights at once.
+2020-07-22 15:09:22,149  INFO [main] FlightSearchTest:72 - Cancelled default origin city.
+2020-07-22 15:09:23,047  INFO [main] FlightSearchTest:74 - Origin city is entered.
+2020-07-22 15:09:23,628  INFO [main] FlightSearchTest:77 - 1
+2020-07-22 15:09:23,651  INFO [main] FlightSearchTest:79 - Chicago, All airports
+CHI
+2020-07-22 15:09:24,060  INFO [main] FlightSearchTest:86 - Clicked on destination.
+2020-07-22 15:09:24,403  INFO [main] FlightSearchTest:88 - Destination city is entered.
+2020-07-22 15:09:25,485  INFO [main] FlightSearchTest:91 - 1
+2020-07-22 15:09:25,502  INFO [main] FlightSearchTest:94 - Atlanta, GA
+Hartsfield-Jackson
+ATL
+2020-07-22 15:09:25,858  INFO [main] FlightSearchTest:101 - Clicked on from date.
+2020-07-22 15:09:26,696  INFO [main] FlightSearchTest:103 - Selected from date.
+2020-07-22 15:09:26,909  INFO [main] FlightSearchTest:105 - Selected to date.
+2020-07-22 15:09:27,180  INFO [main] FlightSearchTest:107 - Clicked on search button.
+2020-07-22 15:09:27,181  INFO [main] FlightSearchTest:108 - Informations are entered successfully and navigated to search option page.
+2020-07-22 15:09:30,649  INFO [main] FlightSearchTest:119 - Closed pop up.
+2020-07-22 15:09:31,114  INFO [main] FlightSearchTest:123 - Option is selected.
+2020-07-22 15:09:31,190  INFO [main] FlightSearchTest:133 - Chicago (CHI)
+2020-07-22 15:09:31,267  INFO [main] FlightSearchTest:135 - Chicago (CHI)
+2020-07-22 15:09:31,360  INFO [main] FlightSearchTest:139 - Atlanta (ATL)
+2020-07-22 15:09:31,408  INFO [main] FlightSearchTest:141 - Atlanta (ATL)
+2020-07-22 16:06:24,634  INFO [main] FlightSearchTest:62 - Clicked on Flight button.
+2020-07-22 16:06:25,936  INFO [main] FlightSearchTest:64 - Search hundreds of flights at once.
+2020-07-22 16:06:26,268  INFO [main] FlightSearchTest:72 - Cancelled default origin city.
+2020-07-22 16:06:26,740  INFO [main] FlightSearchTest:74 - Origin city is entered.
+2020-07-22 16:06:26,975  INFO [main] FlightSearchTest:77 - 1
+2020-07-22 16:06:27,270  INFO [main] FlightSearchTest:79 - San Francisco, CA
+San Francisco
+SFO
+2020-07-22 16:06:27,786  INFO [main] FlightSearchTest:86 - Clicked on destination.
+2020-07-22 16:06:28,204  INFO [main] FlightSearchTest:88 - Destination city is entered.
+2020-07-22 16:06:28,801  INFO [main] FlightSearchTest:91 - 1
+2020-07-22 16:06:28,841  INFO [main] FlightSearchTest:94 - Las Vegas, NV
+McCarran
+LAS
+2020-07-22 16:06:29,204  INFO [main] FlightSearchTest:101 - Clicked on from date.
+2020-07-22 16:06:30,036  INFO [main] FlightSearchTest:103 - Selected from date.
+2020-07-22 16:06:30,250  INFO [main] FlightSearchTest:105 - Selected to date.
+2020-07-22 16:06:30,566  INFO [main] FlightSearchTest:107 - Clicked on search button.
+2020-07-22 16:06:30,567  INFO [main] FlightSearchTest:108 - Informations are entered successfully and navigated to search option page.
+2020-07-22 16:06:33,254  INFO [main] FlightSearchTest:119 - Closed pop up.
+2020-07-22 16:06:33,833  INFO [main] FlightSearchTest:123 - Option is selected.
+2020-07-22 16:06:33,972  INFO [main] FlightSearchTest:133 - San Francisco (SFO)
+2020-07-22 16:06:34,024  INFO [main] FlightSearchTest:135 - San Francisco (SFO)
+2020-07-22 16:06:34,122  INFO [main] FlightSearchTest:139 - Las Vegas (LAS)
+2020-07-22 16:06:34,161  INFO [main] FlightSearchTest:141 - Las Vegas (LAS)
+2020-07-22 16:07:06,356 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-07-22 16:07:06,357 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-07-22 16:10:36,979  INFO [main] FlightSearchTest:62 - Clicked on Flight button.
+2020-07-22 16:10:38,208  INFO [main] FlightSearchTest:64 - Search hundreds of flights at once.
+2020-07-22 16:10:38,498  INFO [main] FlightSearchTest:72 - Cancelled default origin city.
+2020-07-22 16:10:39,367  INFO [main] FlightSearchTest:74 - Origin city is entered.
+2020-07-22 16:10:39,631  INFO [main] FlightSearchTest:77 - 1
+2020-07-22 16:10:39,652  INFO [main] FlightSearchTest:79 - San Francisco, CA
+San Francisco
+SFO
+2020-07-22 16:10:40,099  INFO [main] FlightSearchTest:86 - Clicked on destination.
+2020-07-22 16:10:40,506  INFO [main] FlightSearchTest:88 - Destination city is entered.
+2020-07-22 16:10:40,570  INFO [main] FlightSearchTest:91 - 1
+2020-07-22 16:10:40,589  INFO [main] FlightSearchTest:94 - Las Vegas, NV
+McCarran
+LAS
+2020-07-22 16:10:40,963  INFO [main] FlightSearchTest:101 - Clicked on from date.
+2020-07-22 16:10:41,845  INFO [main] FlightSearchTest:103 - Selected from date.
+2020-07-22 16:10:42,079  INFO [main] FlightSearchTest:105 - Selected to date.
+2020-07-22 16:10:42,378  INFO [main] FlightSearchTest:107 - Clicked on search button.
+2020-07-22 16:10:42,378  INFO [main] FlightSearchTest:108 - Informations are entered successfully and navigated to search option page.
+2020-07-22 16:10:44,204  INFO [main] FlightSearchTest:119 - Closed pop up.
+2020-07-22 16:10:46,952  INFO [main] FlightSearchTest:123 - Option is selected.
+2020-07-22 16:10:47,167  INFO [main] FlightSearchTest:133 - San Francisco (SFO)
+2020-07-22 16:10:47,227  INFO [main] FlightSearchTest:135 - San Francisco (SFO)
+2020-07-22 16:10:47,299  INFO [main] FlightSearchTest:139 - Las Vegas (LAS)
+2020-07-22 16:10:47,364  INFO [main] FlightSearchTest:141 - Las Vegas (LAS)
+2020-07-22 16:11:18,208 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-07-22 16:11:18,209 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-07-22 16:11:25,824  INFO [main] FlightSearchTest:62 - Clicked on Flight button.
+2020-07-22 16:11:26,702  INFO [main] FlightSearchTest:64 - Search hundreds of flights at once.
+2020-07-22 16:11:27,252  INFO [main] FlightSearchTest:72 - Cancelled default origin city.
+2020-07-22 16:11:27,583  INFO [main] FlightSearchTest:74 - Origin city is entered.
+2020-07-22 16:11:27,675  INFO [main] FlightSearchTest:77 - 1
+2020-07-22 16:11:27,724  INFO [main] FlightSearchTest:79 - New York, All airports
+NYC
+2020-07-22 16:11:27,995 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-07-22 16:11:27,996 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-07-22 16:11:28,482  INFO [main] FlightSearchTest:86 - Clicked on destination.
+2020-07-22 16:11:28,897  INFO [main] FlightSearchTest:88 - Destination city is entered.
+2020-07-22 16:11:29,457  INFO [main] FlightSearchTest:91 - 1
+2020-07-22 16:11:29,474  INFO [main] FlightSearchTest:94 - Los Angeles, CA
+Los Angeles
+LAX
+2020-07-22 16:11:29,822  INFO [main] FlightSearchTest:101 - Clicked on from date.
+2020-07-22 16:11:30,694  INFO [main] FlightSearchTest:103 - Selected from date.
+2020-07-22 16:11:30,962  INFO [main] FlightSearchTest:105 - Selected to date.
+2020-07-22 16:11:31,245  INFO [main] FlightSearchTest:107 - Clicked on search button.
+2020-07-22 16:11:31,245  INFO [main] FlightSearchTest:108 - Informations are entered successfully and navigated to search option page.
+2020-07-22 16:11:32,946  INFO [main] FlightSearchTest:119 - Closed pop up.
+2020-07-22 16:11:33,979  INFO [main] FlightSearchTest:123 - Option is selected.
+2020-07-22 16:11:34,121  INFO [main] FlightSearchTest:133 - New York (NYC)
+2020-07-22 16:11:34,261  INFO [main] FlightSearchTest:135 - New York (NYC)
+2020-07-22 16:11:34,310  INFO [main] FlightSearchTest:139 - Los Angeles (LAX)
+2020-07-22 16:11:34,341  INFO [main] FlightSearchTest:141 - Los Angeles (LAX)
+2020-07-22 16:12:00,466  INFO [main] FlightSearchTest:62 - Clicked on Flight button.
+2020-07-22 16:12:01,644  INFO [main] FlightSearchTest:64 - Search hundreds of flights at once.
+2020-07-22 16:12:01,932  INFO [main] FlightSearchTest:72 - Cancelled default origin city.
+2020-07-22 16:12:02,410  INFO [main] FlightSearchTest:74 - Origin city is entered.
+2020-07-22 16:12:02,905  INFO [main] FlightSearchTest:77 - 1
+2020-07-22 16:12:02,932  INFO [main] FlightSearchTest:79 - San Francisco, CA
+San Francisco
+SFO
+2020-07-22 16:12:03,434  INFO [main] FlightSearchTest:86 - Clicked on destination.
+2020-07-22 16:12:03,803  INFO [main] FlightSearchTest:88 - Destination city is entered.
+2020-07-22 16:12:04,383  INFO [main] FlightSearchTest:91 - 1
+2020-07-22 16:12:04,400  INFO [main] FlightSearchTest:94 - Las Vegas, NV
+McCarran
+LAS
+2020-07-22 16:12:04,766  INFO [main] FlightSearchTest:101 - Clicked on from date.
+2020-07-22 16:12:05,588  INFO [main] FlightSearchTest:103 - Selected from date.
+2020-07-22 16:12:05,804  INFO [main] FlightSearchTest:105 - Selected to date.
+2020-07-22 16:12:06,078  INFO [main] FlightSearchTest:107 - Clicked on search button.
+2020-07-22 16:12:06,078  INFO [main] FlightSearchTest:108 - Informations are entered successfully and navigated to search option page.
+2020-07-22 16:12:07,724  INFO [main] FlightSearchTest:119 - Closed pop up.
+2020-07-22 16:12:10,140  INFO [main] FlightSearchTest:123 - Option is selected.
+2020-07-22 16:12:10,291  INFO [main] FlightSearchTest:133 - San Francisco (SFO)
+2020-07-22 16:12:10,436  INFO [main] FlightSearchTest:135 - San Francisco (SFO)
+2020-07-22 16:12:10,483  INFO [main] FlightSearchTest:139 - Las Vegas (LAS)
+2020-07-22 16:12:10,565  INFO [main] FlightSearchTest:141 - Las Vegas (LAS)
+2020-07-22 16:12:15,722  INFO [main] FlightSearchTest:62 - Clicked on Flight button.
+2020-07-22 16:12:16,859  INFO [main] FlightSearchTest:64 - Search hundreds of flights at once.
+2020-07-22 16:12:17,395  INFO [main] FlightSearchTest:72 - Cancelled default origin city.
+2020-07-22 16:12:18,100  INFO [main] FlightSearchTest:74 - Origin city is entered.
+2020-07-22 16:12:18,665  INFO [main] FlightSearchTest:77 - 1
+2020-07-22 16:12:18,683  INFO [main] FlightSearchTest:79 - Chicago, All airports
+CHI
+2020-07-22 16:12:19,110  INFO [main] FlightSearchTest:86 - Clicked on destination.
+2020-07-22 16:12:19,453  INFO [main] FlightSearchTest:88 - Destination city is entered.
+2020-07-22 16:12:20,030  INFO [main] FlightSearchTest:91 - 1
+2020-07-22 16:12:20,049  INFO [main] FlightSearchTest:94 - Atlanta, GA
+Hartsfield-Jackson
+ATL
+2020-07-22 16:12:20,397  INFO [main] FlightSearchTest:101 - Clicked on from date.
+2020-07-22 16:12:21,233  INFO [main] FlightSearchTest:103 - Selected from date.
+2020-07-22 16:12:21,454  INFO [main] FlightSearchTest:105 - Selected to date.
+2020-07-22 16:12:21,719  INFO [main] FlightSearchTest:107 - Clicked on search button.
+2020-07-22 16:12:21,720  INFO [main] FlightSearchTest:108 - Informations are entered successfully and navigated to search option page.
+2020-07-22 16:12:23,306  INFO [main] FlightSearchTest:119 - Closed pop up.
+2020-07-22 16:12:32,600  INFO [main] FlightSearchTest:123 - Option is selected.
+2020-07-22 16:12:33,046  INFO [main] FlightSearchTest:133 - Chicago (CHI)
+2020-07-22 16:12:33,110  INFO [main] FlightSearchTest:135 - Chicago (CHI)
+2020-07-22 16:12:33,890  INFO [main] FlightSearchTest:139 - Atlanta (ATL)
+2020-07-22 16:12:33,933  INFO [main] FlightSearchTest:141 - Atlanta (ATL)
+2020-07-22 16:12:42,630  INFO [main] FlightSearchTest:62 - Clicked on Flight button.
+2020-07-22 16:12:43,728  INFO [main] FlightSearchTest:64 - Search hundreds of flights at once.
+2020-07-22 16:12:44,097  INFO [main] FlightSearchTest:72 - Cancelled default origin city.
+2020-07-22 16:12:44,976  INFO [main] FlightSearchTest:74 - Origin city is entered.
+2020-07-22 16:12:45,031  INFO [main] FlightSearchTest:77 - 1
+2020-07-22 16:12:45,051  INFO [main] FlightSearchTest:79 - New York, All airports
+NYC
+2020-07-22 16:12:45,502  INFO [main] FlightSearchTest:86 - Clicked on destination.
+2020-07-22 16:12:45,884  INFO [main] FlightSearchTest:88 - Destination city is entered.
+2020-07-22 16:12:46,445  INFO [main] FlightSearchTest:91 - 1
+2020-07-22 16:12:46,462  INFO [main] FlightSearchTest:94 - Los Angeles, CA
+Los Angeles
+LAX
+2020-07-22 16:12:46,814  INFO [main] FlightSearchTest:101 - Clicked on from date.
+2020-07-22 16:12:47,682  INFO [main] FlightSearchTest:103 - Selected from date.
+2020-07-22 16:12:47,895  INFO [main] FlightSearchTest:105 - Selected to date.
+2020-07-22 16:12:48,184  INFO [main] FlightSearchTest:107 - Clicked on search button.
+2020-07-22 16:12:48,184  INFO [main] FlightSearchTest:108 - Informations are entered successfully and navigated to search option page.
+2020-07-22 16:12:49,833  INFO [main] FlightSearchTest:119 - Closed pop up.
+2020-07-22 16:12:52,006  INFO [main] FlightSearchTest:123 - Option is selected.
+2020-07-22 16:12:52,385  INFO [main] FlightSearchTest:133 - New York (NYC)
+2020-07-22 16:12:52,421  INFO [main] FlightSearchTest:135 - New York (NYC)
+2020-07-22 16:12:52,470  INFO [main] FlightSearchTest:139 - Los Angeles (LAX)
+2020-07-22 16:12:52,516  INFO [main] FlightSearchTest:141 - Los Angeles (LAX)
