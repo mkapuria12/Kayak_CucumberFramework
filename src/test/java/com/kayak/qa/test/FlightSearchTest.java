@@ -1,16 +1,14 @@
 package com.kayak.qa.test;
 
-import static org.testng.Assert.assertEquals;
-
 //import java.io.IOException;
 import java.util.List;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.DataProvider;
 //import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -62,7 +60,9 @@ public class FlightSearchTest extends TestBase{
 	    log.info("Clicked on Flight button.");
 	    String fText=fsp.flightPage();
 	    log.info(fText);
-	    assertEquals(fText, "Search hundreds of flights at once.");
+	    //assertEquals(fText, "Search hundreds of flights at once.");
+	    sa.assertEquals(fText, "Search hundreds of flights at once.", "Error:Not navigated to flight page.");
+	    log.info("Passed: Navigated to flight page.");
 	}
 
 	@Test(priority=2)
@@ -133,19 +133,22 @@ public class FlightSearchTest extends TestBase{
 	    log.info(fOrText);
 		String oText=sop.validateOriginCity();
 	    log.info(oText);
-	    sa.assertEquals(fOrText, oText, "Origins are the same.");
-	    
+	    sa.assertEquals(fOrText, oText, "Origins are not the same.");
+	    log.info("Passed: Origins are matching.");
+
 	    String fDeText=fsp.flightDestinationCity();
 	    log.info(fDeText);
 	    String dText=sop.validatedestinationCity();
 	    log.info(dText);
-	    sa.assertEquals(fDeText, dText, "Destinations are the same.");
+	    sa.assertEquals(fDeText, dText, "Error: Destinations are not the same.");
+	    log.info("Passed: Destinations are matching.");
 	}
 	
 	@AfterSuite
 	@Then("^Quit the browser$")
 	public void quit_the_browser() throws Throwable {
 	    bUti.quitBrowser();
+	    log.info("Test case passed successfully and quit the browser.");
 	}
 
 

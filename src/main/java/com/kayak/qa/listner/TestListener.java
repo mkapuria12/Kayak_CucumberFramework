@@ -7,7 +7,6 @@ import com.kayak.qa.utilities.TestBase;
 
 
 public class TestListener extends TestBase implements ITestListener {
-	//private static ExtentReports extent;
 
 	@Override
 	public synchronized void onStart(ITestContext context)

@@ -1,43 +1,30 @@
 package com.kayak.qa.testRunner;
-
-
+import java.io.File;
 import org.junit.runner.RunWith;
-//import org.testng.annotations.AfterClass;
-//import org.testng.annotations.BeforeClass;
-//import org.testng.annotations.DataProvider;
-//import org.testng.annotations.Test;
-//import cucumber.api.testng.CucumberFeatureWrapper;
-//import cucumber.api.testng.PickleEventWrapper;  
+import org.testng.annotations.AfterClass;
+import com.cucumber.listener.Reporter;
+
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
-//import cucumber.api.testng.TestNGCucumberRunner;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
+		plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"},
 		format={"pretty","json:path/to/json_repot.json"},
 		features="Features",
 		glue= {"com.kayak.qa.test"}, 
-		monochrome=true)
+		monochrome=true
+		)
 public class TestRunner {
-//	private TestNGCucumberRunner testNGCucumberRunner;  
-//
-//	  @BeforeClass(alwaysRun = true)  
-//	    public void setUpClass() throws Exception {  
-//	        testNGCucumberRunner = new TestNGCucumberRunner(this.getClass());  
-//	  }  
-//
-//	    @Test(groups = "Cucumber", description = "Runs Cucumber Feature", dataProvider = "scenarios")  
-//	    public void scenario(PickleEventWrapper pickleEvent, CucumberFeatureWrapper cucumberFeature) throws Throwable {  
-//	        testNGCucumberRunner.runScenario(pickleEvent.getPickleEvent());  
-//	  }  
-//
-//	    @DataProvider  
-//	  public Object[][] scenarios() {  
-//	        return (testNGCucumberRunner.provideScenarios();  
-//	  }  
-//
-//	    @AfterClass(alwaysRun = true)  
-//	    public void tearDownClass() throws Exception {  
-//	        testNGCucumberRunner.finish();  
-//	  }  
+	@AfterClass
+    public static void writeExtentReport() {
+		Reporter.loadXMLConfig(new File("src/test/resources/extent-config.xml"));
+		//Reporter.setSystemInfo("Test User", System.getProperty("user.name"));
+		/*Reporter.setSystemInfo("User Name", "AJ");
+		Reporter.setSystemInfo("Application Name", "Test App ");
+		Reporter.setSystemInfo("Operating System Type", System.getProperty("os.name").toString());
+		Reporter.setSystemInfo("Environment", "Production");
+		Reporter.setTestRunnerOutput("Test Execution Cucumber Report");  */ }
 }
+//com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:
+//com.cucumber.listener.ExtentCucumberFormatter

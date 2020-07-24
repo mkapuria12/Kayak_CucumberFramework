@@ -34,80 +34,83 @@
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
-			 <plugin>
-                <groupId>net.masterthought</groupId>
-                <artifactId>maven-cucumber-reporting</artifactId>
-                <version>3.8.0</version>
-                <executions>
-                    <execution>
-                        <id>execution</id>
-                        <phase>verify</phase>
-                        <goals>
-                            <goal>generate</goal>
-                        </goals>
-                        <configuration>
-                            <projectName>Kayak_CucumberFramework</projectName>  <!-- Replace with project name -->
-                            <outputDirectory>test-output/cucumber-reports/advanced-reports</outputDirectory>
-                            <cucumberOutput>test-output/cucumber-reports/CucumberTestReport.json</cucumberOutput>
-                            <buildNumber>1</buildNumber>
-                            <parallelTesting>false</parallelTesting>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
     </plugins> 
    </build>     
  <dependencies>
-<dependency>
-    <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>selenium-java</artifactId>
-    <version>3.141.59</version>
-</dependency>
-<dependency>
-    <groupId>info.cukes</groupId>
-    <artifactId>cucumber-core</artifactId>
-    <version>1.2.5</version>
-</dependency>
-<dependency>
-    <groupId>info.cukes</groupId>
-    <artifactId>gherkin</artifactId>
-    <version>2.12.2</version>
-    <scope>provided</scope>
-</dependency>
-<dependency>
-    <groupId>info.cukes</groupId>
-    <artifactId>cucumber-jvm-deps</artifactId>
-    <version>1.0.5</version>
-    <scope>provided</scope>
-</dependency>
-<dependency>
-    <groupId>info.cukes</groupId>
-    <artifactId>cucumber-jvm</artifactId>
-    <version>1.2.5</version>
-    <type>pom</type>
-</dependency>
- <dependency>
+		<dependency>
+		    <groupId>org.seleniumhq.selenium</groupId>
+		    <artifactId>selenium-java</artifactId>
+		    <version>3.141.59</version>
+		</dependency>
+		<dependency>
    			 <groupId>io.github.bonigarcia</groupId>
     		 <artifactId>webdrivermanager</artifactId>
     		 <version>3.8.1</version>
 		</dependency>
- <dependency>
- 			<groupId>info.cukes</groupId>
-			 <artifactId>cucumber-java</artifactId>
-			 <version>1.2.5</version>
- </dependency>
-
-<dependency>
-		    <groupId>com.relevantcodes</groupId>
-		    <artifactId>extentreports</artifactId>
-		    <version>2.40.2</version>
+		<dependency>
+		    <groupId>info.cukes</groupId>
+		    <artifactId>gherkin</artifactId>
+		    <version>2.12.2</version>
+		    <scope>provided</scope>
 		</dependency>
 		<dependency>
-		    <groupId>org.freemarker</groupId>
-		    <artifactId>freemarker</artifactId>
-		    <version>2.3.28</version>
+		    <groupId>info.cukes</groupId>
+		    <artifactId>cucumber-core</artifactId>
+		    <version>1.2.5</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>info.cukes</groupId>
+		    <artifactId>cucumber-jvm-deps</artifactId>
+		    <version>1.0.5</version>
+		    <scope>provided</scope>
 		</dependency>
 		<dependency>
+		    <groupId>info.cukes</groupId>
+		    <artifactId>cucumber-jvm</artifactId>
+		    <version>1.2.5</version>
+		    <type>pom</type>
+		</dependency>
+		 
+		<dependency>
+		    <groupId>info.cukes</groupId>
+		    <artifactId>cucumber-java</artifactId>
+		    <version>1.2.5</version>
+		</dependency>
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-picocontainer</artifactId>
+			<version>1.2.5</version>
+			<scope>source</scope>
+		</dependency>
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>1.2.5</version>
+			<scope>source</scope>
+		</dependency>
+	 <!-- 	<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports-cucumber4-adapter</artifactId>
+			<version>1.0.7</version>
+		</dependency> -->
+	 	<dependency>
+            <groupId>com.vimalselvam</groupId>
+            <artifactId>cucumber-extentsreport</artifactId>
+            <version>3.0.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>4.0.8</version>
+        </dependency> 
+		<dependency>
+			<groupId>com.relevantcodes</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>2.41.2</version>
+		</dependency>
+		<dependency>
+		
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
 			<version>1.2.17</version>
@@ -179,32 +182,10 @@
 		    <version>1.14</version>
 		</dependency>
 		<dependency>
-		    <groupId>com.relevantcodes</groupId>
-		    <artifactId>extentreports</artifactId>
-		    <version>2.40.2</version>
-		</dependency>
-		<dependency>
-		    <groupId>info.cukes</groupId>
-		    <artifactId>gherkin</artifactId>
-		    <version>2.12.2</version>
-		    <scope>provided</scope>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
-		<dependency>
-		    <groupId>info.cukes</groupId>
-		    <artifactId>cucumber-junit</artifactId>
-		    <version>1.2.4</version>
-		   <scope>compile</scope>  
-		</dependency>
-		<dependency>
 		    <groupId>info.cukes</groupId>
 		    <artifactId>cucumber-testng</artifactId>
 		    <version>1.2.5</version>
-		</dependency>
-		<dependency>
-		    <groupId>com.vimalselvam</groupId>
-		    <artifactId>cucumber-extentsreport</artifactId>
-		    <version>3.1.1</version>
+		    <scope>compile</scope>
 		</dependency>
 		<dependency>
 		    <groupId>net.masterthought</groupId>
