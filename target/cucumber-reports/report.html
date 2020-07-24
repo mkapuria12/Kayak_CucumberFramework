@@ -35,8 +35,7 @@
 		<!-- slideout menu -->
 		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
 			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
-						<li class='waves-effect'><a href='#!' view='exception-view' onclick="configureView(2)"><i class='material-icons'>bug_report</i></a></li>
-			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
+						<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
 		</ul>
 		<!-- report name -->
 		<span class='report-name'>ExtentReports</span>
@@ -45,7 +44,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Jul 23, 2020 02:40:37 PM</span>
+			<span class='label blue darken-3 suite-start-time'>Jul 23, 2020 05:27:18 PM</span>
 			</a>
 		</ul>
 	</div>
@@ -61,8 +60,6 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
-					<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
-					<li status='skip'><a href='#!'>Skip <i class='material-icons cyan-text'>redo</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -105,10 +102,10 @@
                     <canvas id='parent-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> feature(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> feature(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='100%'>1</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
                 </div>
             </div>
         </div>
@@ -119,10 +116,10 @@
                     <canvas id='child-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> scenario(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>3</span> scenario(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='100%'>3</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
                 </div>
             </div>
         </div>
@@ -133,10 +130,10 @@
                     <canvas id='grandchild-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='16.667%'><span class='strong'>3</span> step(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>18</span> step(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='16.667%'>3</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='66.667%'>12</span> others
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
                 </div>
             </div>
         </div>
@@ -154,11 +151,11 @@
 </div>	<div class='subview-left left'>
 		<div class='view-summary'>
 			<ul id='test-collection' class='test-collection'>
-				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Flight feature of Kayak.com</span>
-						<span class='test-time'>Jul 23, 2020 02:40:38 PM</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-time'>Jul 23, 2020 05:27:18 PM</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class="sr-filters bdd-filters">
@@ -167,261 +164,96 @@
     <a class="btn-floating waves-effect waves-light skip blue" title="skip"><i class='material-icons'>redo</i></a>
     <a class="btn-floating waves-effect waves-light clear grey" title="clear"><i class='material-icons'>clear</i></a>
 </div>
-<div class='scenariooutline node' test-id='2' status='fail'>
-    <span class='duration right label'>0h 1m 24s+31ms</span>
+<div class='scenariooutline node' test-id='2' status='pass'>
+    <span class='duration right label'>0h 0m 54s+705ms</span>
     <div class="bdd-test">
-        <div class="scenario-name"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span> ScenarioOutline: TC1_Flight search</div>
+        <div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> ScenarioOutline: TC1_Flight search</div>
     </div>
     <ul class='steps'>
-        <li test-id='3' class='node scenario fail' status='fail'>
-            <div class="step-name"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span>TC1_Flight search</div>
+        <li test-id='3' class='node scenario pass' status='pass'>
+            <div class="step-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>TC1_Flight search</div>
             <ul class='gc steps'>
                     <li test-id='4' class='gc given pass' status='pass'>
                         <h6 class="step-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given Launch the chrome browser</h6>
                             <div class="node-step">passed</div>
                     </li>
-                    <li test-id='5' class='gc when fail' status='fail'>
-                        <h6 class="step-name"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span>When Click on flight button</h6>
-                            <textarea disabled class="code-block">org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=84.0.4147.89)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Rohans-MBP-2.attlocal.net', ip: '2600:1700:d610:39c0:0:0:0:24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/wy/j2m_y_mx4kx...}, goog:chromeOptions: {debuggerAddress: localhost:55221}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: cd666645e2d17eb812d7fd076b4e076e
-*** Element info: {Using=xpath, value=(//a[contains(text(),'Flights')])[1]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy19.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	at com.kayak.qa.utilities.BrowserUtilities.waitForPageElementToVisible(BrowserUtilities.java:66)
-	at com.kayak.qa.pages.FlightSearchPage.kayakflight(FlightSearchPage.java:23)
-	at com.kayak.qa.test.FlightSearchTest.click_on_flight_button(FlightSearchTest.java:59)
-	at ✽.When Click on flight button(FlightSearch.feature:5)
-</textarea>
-                                                </li>
-                    <li test-id='6' class='gc then skip' status='skip'>
-                        <h6 class="step-name"><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then Enter origin "San Francisco (SFO)", destination "Las Vegas (LAS)", select from date, to date and click on search button</h6>
-                            <div class="node-step">skipped</div>
+                    <li test-id='5' class='gc when pass' status='pass'>
+                        <h6 class="step-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When Click on flight button</h6>
+                            <div class="node-step">passed</div>
                     </li>
-                    <li test-id='7' class='gc when skip' status='skip'>
-                        <h6 class="step-name"><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>When Select one search option</h6>
-                            <div class="node-step">skipped</div>
+                    <li test-id='6' class='gc then pass' status='pass'>
+                        <h6 class="step-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Enter origin "San Francisco (SFO)", destination "Las Vegas (LAS)", select from date, to date and click on search button</h6>
+                            <div class="node-step">passed</div>
                     </li>
-                    <li test-id='8' class='gc then skip' status='skip'>
-                        <h6 class="step-name"><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then Verify and Validate origin and destination cities</h6>
-                            <div class="node-step">skipped</div>
+                    <li test-id='7' class='gc when pass' status='pass'>
+                        <h6 class="step-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When Select one search option</h6>
+                            <div class="node-step">passed</div>
                     </li>
-                    <li test-id='9' class='gc then skip' status='skip'>
-                        <h6 class="step-name"><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then Quit the browser</h6>
-                            <div class="node-step">skipped</div>
+                    <li test-id='8' class='gc then pass' status='pass'>
+                        <h6 class="step-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Verify and Validate origin and destination cities</h6>
+                            <div class="node-step">passed</div>
+                    </li>
+                    <li test-id='9' class='gc then pass' status='pass'>
+                        <h6 class="step-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Quit the browser</h6>
+                            <div class="node-step">passed</div>
                     </li>
             </ul>
         </li>
-        <li test-id='10' class='node scenario fail' status='fail'>
-            <div class="step-name"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span>TC1_Flight search</div>
+        <li test-id='10' class='node scenario pass' status='pass'>
+            <div class="step-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>TC1_Flight search</div>
             <ul class='gc steps'>
                     <li test-id='11' class='gc given pass' status='pass'>
                         <h6 class="step-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given Launch the chrome browser</h6>
                             <div class="node-step">passed</div>
                     </li>
-                    <li test-id='12' class='gc when fail' status='fail'>
-                        <h6 class="step-name"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span>When Click on flight button</h6>
-                            <textarea disabled class="code-block">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=84.0.4147.89)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Rohans-MBP-2.attlocal.net', ip: '2600:1700:d610:39c0:0:0:0:24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/wy/j2m_y_mx4kx...}, goog:chromeOptions: {debuggerAddress: localhost:55280}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e5f7a11368d1dcf7a7c0cddbf68a839e
-*** Element info: {Using=xpath, value=//h2[contains(text(),'Search hundreds of flights at once.')]}
-	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy19.toString(Unknown Source)
-	at java.lang.String.valueOf(String.java:2994)
-	at java.lang.StringBuilder.append(StringBuilder.java:131)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.toString(ExpectedConditions.java:305)
-	at java.lang.String.valueOf(String.java:2994)
-	at java.lang.StringBuilder.append(StringBuilder.java:131)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:268)
-	at com.kayak.qa.utilities.BrowserUtilities.waitForPageElementToVisible(BrowserUtilities.java:66)
-	at com.kayak.qa.pages.FlightSearchPage.flightPage(FlightSearchPage.java:31)
-	at com.kayak.qa.test.FlightSearchTest.click_on_flight_button(FlightSearchTest.java:61)
-	at ✽.When Click on flight button(FlightSearch.feature:5)
-</textarea>
-                                                </li>
-                    <li test-id='13' class='gc then skip' status='skip'>
-                        <h6 class="step-name"><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then Enter origin "Chicago (CHI)", destination "Atlanta (ATL)", select from date, to date and click on search button</h6>
-                            <div class="node-step">skipped</div>
+                    <li test-id='12' class='gc when pass' status='pass'>
+                        <h6 class="step-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When Click on flight button</h6>
+                            <div class="node-step">passed</div>
                     </li>
-                    <li test-id='14' class='gc when skip' status='skip'>
-                        <h6 class="step-name"><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>When Select one search option</h6>
-                            <div class="node-step">skipped</div>
+                    <li test-id='13' class='gc then pass' status='pass'>
+                        <h6 class="step-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Enter origin "Chicago (CHI)", destination "Atlanta (ATL)", select from date, to date and click on search button</h6>
+                            <div class="node-step">passed</div>
                     </li>
-                    <li test-id='15' class='gc then skip' status='skip'>
-                        <h6 class="step-name"><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then Verify and Validate origin and destination cities</h6>
-                            <div class="node-step">skipped</div>
+                    <li test-id='14' class='gc when pass' status='pass'>
+                        <h6 class="step-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When Select one search option</h6>
+                            <div class="node-step">passed</div>
                     </li>
-                    <li test-id='16' class='gc then skip' status='skip'>
-                        <h6 class="step-name"><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then Quit the browser</h6>
-                            <div class="node-step">skipped</div>
+                    <li test-id='15' class='gc then pass' status='pass'>
+                        <h6 class="step-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Verify and Validate origin and destination cities</h6>
+                            <div class="node-step">passed</div>
+                    </li>
+                    <li test-id='16' class='gc then pass' status='pass'>
+                        <h6 class="step-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Quit the browser</h6>
+                            <div class="node-step">passed</div>
                     </li>
             </ul>
         </li>
-        <li test-id='17' class='node scenario fail' status='fail'>
-            <div class="step-name"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span>TC1_Flight search</div>
+        <li test-id='17' class='node scenario pass' status='pass'>
+            <div class="step-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>TC1_Flight search</div>
             <ul class='gc steps'>
                     <li test-id='18' class='gc given pass' status='pass'>
                         <h6 class="step-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given Launch the chrome browser</h6>
                             <div class="node-step">passed</div>
                     </li>
-                    <li test-id='19' class='gc when fail' status='fail'>
-                        <h6 class="step-name"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span>When Click on flight button</h6>
-                            <textarea disabled class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//a[contains(text(),'Flights')])[1]' (tried for 30 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at com.kayak.qa.utilities.BrowserUtilities.waitForPageElementToVisible(BrowserUtilities.java:66)
-	at com.kayak.qa.pages.FlightSearchPage.kayakflight(FlightSearchPage.java:23)
-	at com.kayak.qa.test.FlightSearchTest.click_on_flight_button(FlightSearchTest.java:59)
-	at ✽.When Click on flight button(FlightSearch.feature:5)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//a[contains(text(),'Flights')])[1]"}
-  (Session info: chrome=84.0.4147.89)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Rohans-MBP-2.attlocal.net', ip: '2600:1700:d610:39c0:0:0:0:24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/wy/j2m_y_mx4kx...}, goog:chromeOptions: {debuggerAddress: localhost:55321}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: b24c573c69148420fedfbe9cb22b5cc3
-*** Element info: {Using=xpath, value=(//a[contains(text(),'Flights')])[1]}
-	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy19.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	at com.kayak.qa.utilities.BrowserUtilities.waitForPageElementToVisible(BrowserUtilities.java:66)
-	at com.kayak.qa.pages.FlightSearchPage.kayakflight(FlightSearchPage.java:23)
-	at com.kayak.qa.test.FlightSearchTest.click_on_flight_button(FlightSearchTest.java:59)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at cucumber.runtime.Utils$1.call(Utils.java:40)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
-	at cucumber.runtime.Utils.invoke(Utils.java:34)
-	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
-	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
-	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
-	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
-	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
-	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
-	at org.junit.runners.Suite.runChild(Suite.java:128)
-	at org.junit.runners.Suite.runChild(Suite.java:27)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
-	at org.junit.runners.Suite.runChild(Suite.java:128)
-	at org.junit.runners.Suite.runChild(Suite.java:27)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
-	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
-	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
-</textarea>
-                                                </li>
-                    <li test-id='20' class='gc then skip' status='skip'>
-                        <h6 class="step-name"><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then Enter origin "New York (NYC)", destination "Los Angeles (LAX)", select from date, to date and click on search button</h6>
-                            <div class="node-step">skipped</div>
+                    <li test-id='19' class='gc when pass' status='pass'>
+                        <h6 class="step-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When Click on flight button</h6>
+                            <div class="node-step">passed</div>
                     </li>
-                    <li test-id='21' class='gc when skip' status='skip'>
-                        <h6 class="step-name"><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>When Select one search option</h6>
-                            <div class="node-step">skipped</div>
+                    <li test-id='20' class='gc then pass' status='pass'>
+                        <h6 class="step-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Enter origin "New York (NYC)", destination "Los Angeles (LAX)", select from date, to date and click on search button</h6>
+                            <div class="node-step">passed</div>
                     </li>
-                    <li test-id='22' class='gc then skip' status='skip'>
-                        <h6 class="step-name"><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then Verify and Validate origin and destination cities</h6>
-                            <div class="node-step">skipped</div>
+                    <li test-id='21' class='gc when pass' status='pass'>
+                        <h6 class="step-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When Select one search option</h6>
+                            <div class="node-step">passed</div>
                     </li>
-                    <li test-id='23' class='gc then skip' status='skip'>
-                        <h6 class="step-name"><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then Quit the browser</h6>
-                            <div class="node-step">skipped</div>
+                    <li test-id='22' class='gc then pass' status='pass'>
+                        <h6 class="step-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Verify and Validate origin and destination cities</h6>
+                            <div class="node-step">passed</div>
+                    </li>
+                    <li test-id='23' class='gc then pass' status='pass'>
+                        <h6 class="step-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Quit the browser</h6>
+                            <div class="node-step">passed</div>
                     </li>
             </ul>
         </li>
@@ -449,283 +281,7 @@ Session ID: b24c573c69148420fedfbe9cb22b5cc3
 	</div>
 	<!-- subview right -->
 </div>
-<!-- test view --><!-- category view --><div id='exception-view' class='view hide'>
-	<section id='controls'>
-		<div class='controls grey lighten-4'>
-			<!-- search -->
-			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
-				<a href="#" class='search-div'>
-				<i class='material-icons'>search</i> Search
-				</a>
-				<div class='input-field left hide'>
-					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
-				</div>
-			</div>
-			<!-- search -->
-		</div>
-	</section>
-	<div class='subview-left left'>
-		<div class='view-summary'>
-			<ul id='exception-collection' class='exception-collection'>
-				<li class='exception displayed active'>
-					<div class='exception-heading'>
-						<span class='exception-name'>org.openqa.selenium.WebDriverException</span>
-						<span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
-					</div>
-					<div class='exception-content hide'>
-						<div class='exception-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Jul 23, 2020 02:40:42 PM</td>
-										<td class='linked' test-id='5'>Flight feature of Kayak.com.TC1_Flight search.TC1_Flight search.When Click on flight button</td>
-										<td>
-											<textarea disabled class="code-block">org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=84.0.4147.89)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Rohans-MBP-2.attlocal.net', ip: '2600:1700:d610:39c0:0:0:0:24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/wy/j2m_y_mx4kx...}, goog:chromeOptions: {debuggerAddress: localhost:55221}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: cd666645e2d17eb812d7fd076b4e076e
-*** Element info: {Using=xpath, value=(//a[contains(text(),'Flights')])[1]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy19.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	at com.kayak.qa.utilities.BrowserUtilities.waitForPageElementToVisible(BrowserUtilities.java:66)
-	at com.kayak.qa.pages.FlightSearchPage.kayakflight(FlightSearchPage.java:23)
-	at com.kayak.qa.test.FlightSearchTest.click_on_flight_button(FlightSearchTest.java:59)
-	at ✽.When Click on flight button(FlightSearch.feature:5)
-</textarea>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-				<li class='exception displayed active'>
-					<div class='exception-heading'>
-						<span class='exception-name'>org.openqa.selenium.NoSuchWindowException</span>
-						<span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
-					</div>
-					<div class='exception-content hide'>
-						<div class='exception-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Jul 23, 2020 02:40:56 PM</td>
-										<td class='linked' test-id='12'>Flight feature of Kayak.com.TC1_Flight search.TC1_Flight search.When Click on flight button</td>
-										<td>
-											<textarea disabled class="code-block">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=84.0.4147.89)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Rohans-MBP-2.attlocal.net', ip: '2600:1700:d610:39c0:0:0:0:24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/wy/j2m_y_mx4kx...}, goog:chromeOptions: {debuggerAddress: localhost:55280}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e5f7a11368d1dcf7a7c0cddbf68a839e
-*** Element info: {Using=xpath, value=//h2[contains(text(),'Search hundreds of flights at once.')]}
-	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy19.toString(Unknown Source)
-	at java.lang.String.valueOf(String.java:2994)
-	at java.lang.StringBuilder.append(StringBuilder.java:131)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.toString(ExpectedConditions.java:305)
-	at java.lang.String.valueOf(String.java:2994)
-	at java.lang.StringBuilder.append(StringBuilder.java:131)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:268)
-	at com.kayak.qa.utilities.BrowserUtilities.waitForPageElementToVisible(BrowserUtilities.java:66)
-	at com.kayak.qa.pages.FlightSearchPage.flightPage(FlightSearchPage.java:31)
-	at com.kayak.qa.test.FlightSearchTest.click_on_flight_button(FlightSearchTest.java:61)
-	at ✽.When Click on flight button(FlightSearch.feature:5)
-</textarea>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-				<li class='exception displayed active'>
-					<div class='exception-heading'>
-						<span class='exception-name'>org.openqa.selenium.TimeoutException</span>
-						<span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
-					</div>
-					<div class='exception-content hide'>
-						<div class='exception-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Jul 23, 2020 02:41:32 PM</td>
-										<td class='linked' test-id='19'>Flight feature of Kayak.com.TC1_Flight search.TC1_Flight search.When Click on flight button</td>
-										<td>
-											<textarea disabled class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//a[contains(text(),'Flights')])[1]' (tried for 30 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at com.kayak.qa.utilities.BrowserUtilities.waitForPageElementToVisible(BrowserUtilities.java:66)
-	at com.kayak.qa.pages.FlightSearchPage.kayakflight(FlightSearchPage.java:23)
-	at com.kayak.qa.test.FlightSearchTest.click_on_flight_button(FlightSearchTest.java:59)
-	at ✽.When Click on flight button(FlightSearch.feature:5)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//a[contains(text(),'Flights')])[1]"}
-  (Session info: chrome=84.0.4147.89)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Rohans-MBP-2.attlocal.net', ip: '2600:1700:d610:39c0:0:0:0:24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/wy/j2m_y_mx4kx...}, goog:chromeOptions: {debuggerAddress: localhost:55321}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: b24c573c69148420fedfbe9cb22b5cc3
-*** Element info: {Using=xpath, value=(//a[contains(text(),'Flights')])[1]}
-	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy19.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	at com.kayak.qa.utilities.BrowserUtilities.waitForPageElementToVisible(BrowserUtilities.java:66)
-	at com.kayak.qa.pages.FlightSearchPage.kayakflight(FlightSearchPage.java:23)
-	at com.kayak.qa.test.FlightSearchTest.click_on_flight_button(FlightSearchTest.java:59)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at cucumber.runtime.Utils$1.call(Utils.java:40)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
-	at cucumber.runtime.Utils.invoke(Utils.java:34)
-	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
-	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
-	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
-	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
-	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
-	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
-	at org.junit.runners.Suite.runChild(Suite.java:128)
-	at org.junit.runners.Suite.runChild(Suite.java:27)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
-	at org.junit.runners.Suite.runChild(Suite.java:128)
-	at org.junit.runners.Suite.runChild(Suite.java:27)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
-	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
-	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
-</textarea>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-			</ul>
-		</div>
-	</div>
-	<div class='subview-right left'>
-		<div class='view-summary'>
-			<h5 class='exception-name'></h5>
-		</div>
-	</div>
-</div>
-<!-- exception view --><div id='dashboard-view' class='view hide'>
+<!-- test view --><!-- category view --><!-- exception view --><div id='dashboard-view' class='view hide'>
 	<div class='card-panel transparent np-v'>
 		<h5>Dashboard</h5>
 
@@ -751,19 +307,19 @@ Session ID: b24c573c69148420fedfbe9cb22b5cc3
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Jul 23, 2020 02:40:37 PM</div>
+					<div class='panel-lead'>Jul 23, 2020 05:27:18 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Jul 23, 2020 02:42:02 PM</div>
+			 		<div class='panel-lead'>Jul 23, 2020 05:28:13 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 1m 24s+299ms</div>
+					<div class='panel-lead'>0h 0m 54s+959ms</div>
 				</div>
 			</div>
 		</div>
@@ -775,38 +331,38 @@ Session ID: b24c573c69148420fedfbe9cb22b5cc3
 		<script>
 			var statusGroup = {
                 parentCount: 1,
-				passParent: 0,
-				failParent: 1,
+				passParent: 1,
+				failParent: 0,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 1,
+				exceptionsParent: 0,
 				childCount: 3,
-				passChild: 0,
-				failChild: 3,
+				passChild: 3,
+				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
 				debugChild: 0,
-				exceptionsChild: 3,
+				exceptionsChild: 0,
 				grandChildCount: 18,
-				passGrandChild: 3,
-				failGrandChild: 3,
+				passGrandChild: 18,
+				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 12,
+				skipGrandChild: 0,
 				infoGrandChild: 0,
 				debugGrandChild: 0,
-				exceptionsGrandChild: 15,
+				exceptionsGrandChild: 0,
 			};
 		</script>
 		<script>
 			var timeline = {
-			        "Flight feature of Kayak.com":84.031
+			        "Flight feature of Kayak.com":54.705
 			};
 		</script>
 		<script src='https://cdn.rawgit.com/extent-framework/extent-github-cdn/c23457b/v3html/js/extent.js' type='text/javascript'></script>
